@@ -1,0 +1,5 @@
+program_type,bedroom_size,max_subsidy,notes
+PBV,2,1900,Based on payment std
+PBV,3,2100,Based on payment std
+PBRA,2,1850,Per HUD 4350.3 rules
+PBRA,3,2050,Per HUD 4350.3 rules

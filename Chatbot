@@ -1,8 +1,9 @@
-# Title: ECFR Title 24 Chatbot (OpenAI + LangChain)
+# Title: ECFR Title 24 Chatbot (Streamlit + LangChain)
 # Author: Zach's AI housing assistant
 
-!pip install -q langchain openai chromadb tiktoken
+!pip install -q langchain openai chromadb tiktoken streamlit
 
+import streamlit as st
 from langchain.document_loaders import TextLoader
 from langchain.vectorstores import Chroma
 from langchain.embeddings.openai import OpenAIEmbeddings
@@ -18,11 +19,13 @@ OPENAI_API_KEY = "sk-..."  # Replace with your actual key
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 DATA_PATH = "/content/cfr_title24_sections_parsed.jsonl"
+FORMS_PATH = "/content/forms_index.jsonl"  # Optional HUD forms
 CHROMA_PATH = "/content/chroma_db"
 
 # === STEP 2: LOAD AND FORMAT THE DATA ===
 documents = []
 
+# Load CFR sections
 with open(DATA_PATH, "r") as f:
     for line in f:
         entry = json.loads(line)
@@ -34,6 +37,20 @@ with open(DATA_PATH, "r") as f:
             "source_file": entry.get("file")
         }
         documents.append(Document(page_content=text, metadata=metadata))
+
+# Load HUD forms/notices if available
+if os.path.exists(FORMS_PATH):
+    with open(FORMS_PATH, "r") as f:
+        for line in f:
+            entry = json.loads(line)
+            text = f"HUD Form {entry['form_number']}\n\n{entry.get('description', 'No description')}"
+            metadata = {
+                "form_number": entry["form_number"],
+                "title": entry.get("title", "HUD Form"),
+                "path": entry.get("path"),
+                "type": "HUD Form"
+            }
+            documents.append(Document(page_content=text, metadata=metadata))
 
 # === STEP 3: EMBEDDING AND VECTORSTORE ===
 embedding = OpenAIEmbeddings()
@@ -49,19 +66,25 @@ qa_chain = ConversationalRetrievalChain.from_llm(
     return_source_documents=True
 )
 
-# === STEP 5: INTERACTIVE CHAT LOOP ===
-print("🤖 ECFR Title 24 GPT Bot is ready! Ask a question or type 'exit'.")
+# === STEP 5: STREAMLIT INTERFACE ===
+st.set_page_config(page_title="ECFR Title 24 GPT Bot", layout="wide")
+st.title("🤖 ECFR Title 24 GPT Bot")
 
-chat_history = []
-while True:
-    query = input("\nYou: ")
-    if query.lower() in ("exit", "quit"): break
-    result = qa_chain({"question": query, "chat_history": chat_history})
-    print("\nAI:", result["answer"])
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
 
-    # Optionally print source sections
-    print("\n🔍 Sources:")
+query = st.text_input("Ask a question about CFR Title 24 or HUD forms:", key="user_input")
+
+if query:
+    result = qa_chain({"question": query, "chat_history": st.session_state.chat_history})
+    st.markdown("### 💬 Response")
+    st.write(result["answer"])
+
+    st.markdown("### 📄 Source Documents")
     for doc in result["source_documents"]:
-        print(f"- {doc.metadata['section']}: {doc.metadata['title']} ({doc.metadata['part']})")
+        if doc.metadata.get("type") == "HUD Form":
+            st.markdown(f"- **HUD Form {doc.metadata['form_number']}**: {doc.metadata['title']}")
+        else:
+            st.markdown(f"- **{doc.metadata['section']}**: {doc.metadata['title']} ({doc.metadata['part']})")
 
-    chat_history.append((query, result["answer"]))
+    st.session_state.chat_history.append((query, result["answer"]))

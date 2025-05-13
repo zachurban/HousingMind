@@ -1,5 +1,5 @@
 # HousingMind
-A curated training dataset for fine-tuning large language models on U.S. affordable housing policy, public housing operations, HUD regulations, and voucher program administration. Designed for compliance automation, technical assistance, and intelligent document generation.
+A curated training dataset for fine-tuning large language models on U.S. affordable housing policy, public housing operations, HUD regulations, and voucher program administration. Designed for compliance automation, technical assistance, and intelligent document generation. This project is not endorsed or approved by any U.S. Government entity at this time. 
 
 **Training Data for Affordable Housing Language Models**
 

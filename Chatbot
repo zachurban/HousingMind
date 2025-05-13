@@ -1,0 +1,67 @@
+# Title: ECFR Title 24 Chatbot (OpenAI + LangChain)
+# Author: Zach's AI housing assistant
+
+!pip install -q langchain openai chromadb tiktoken
+
+from langchain.document_loaders import TextLoader
+from langchain.vectorstores import Chroma
+from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.llms import OpenAI
+from langchain.chains import ConversationalRetrievalChain
+from langchain.memory import ConversationBufferMemory
+from langchain.schema import Document
+import json
+import os
+
+# === STEP 1: CONFIGURATION ===
+OPENAI_API_KEY = "sk-..."  # Replace with your actual key
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+
+DATA_PATH = "/content/cfr_title24_sections_parsed.jsonl"
+CHROMA_PATH = "/content/chroma_db"
+
+# === STEP 2: LOAD AND FORMAT THE DATA ===
+documents = []
+
+with open(DATA_PATH, "r") as f:
+    for line in f:
+        entry = json.loads(line)
+        text = f"{entry['section_number']} - {entry.get('section_heading', '')}\n\n{entry['text']}"
+        metadata = {
+            "section": entry["section_number"],
+            "title": entry.get("section_heading"),
+            "part": entry.get("part_heading"),
+            "source_file": entry.get("file")
+        }
+        documents.append(Document(page_content=text, metadata=metadata))
+
+# === STEP 3: EMBEDDING AND VECTORSTORE ===
+embedding = OpenAIEmbeddings()
+vectorstore = Chroma.from_documents(documents, embedding, persist_directory=CHROMA_PATH)
+retriever = vectorstore.as_retriever(search_kwargs={"k": 4})
+
+# === STEP 4: SETUP CONVERSATIONAL CHAIN ===
+memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
+qa_chain = ConversationalRetrievalChain.from_llm(
+    llm=OpenAI(temperature=0),
+    retriever=retriever,
+    memory=memory,
+    return_source_documents=True
+)
+
+# === STEP 5: INTERACTIVE CHAT LOOP ===
+print("🤖 ECFR Title 24 GPT Bot is ready! Ask a question or type 'exit'.")
+
+chat_history = []
+while True:
+    query = input("\nYou: ")
+    if query.lower() in ("exit", "quit"): break
+    result = qa_chain({"question": query, "chat_history": chat_history})
+    print("\nAI:", result["answer"])
+
+    # Optionally print source sections
+    print("\n🔍 Sources:")
+    for doc in result["source_documents"]:
+        print(f"- {doc.metadata['section']}: {doc.metadata['title']} ({doc.metadata['part']})")
+
+    chat_history.append((query, result["answer"]))

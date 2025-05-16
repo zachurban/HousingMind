@@ -1,5 +1,0 @@
-These files are tabulated consistent with the state-level LIHTC tenant data tabulations and the same Documentation Guide applies to both the state-level and property-level tabulations (https://www.huduser.gov/portal/Datasets/lihtc/LIHTC-TenantDataDocumentation.pdf).
-
-HUD’s non-disclosure rule has been applied to these property-level tabulations.  This rule prohibits the release of data for values less than 11.  For rows that sum to 100%, if only one value is masked under this rule, a second value, exceeding 10, is also masked to prevent identifying the first masked value.  This Rule of 11 is applied to raw values prior to converting to percentages.  Masked values are replaced with ‘-4’.  ‘-5’ indicates data not reported.
-
-"2022 LIHTC Tenant Data by Property - HUD_ID.xlsx" can be used to match these data files to the HUD LIHTC Properties Placed in Service database.

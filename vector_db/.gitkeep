@@ -1,0 +1,2 @@
+# This directory stores the ChromaDB vector database
+# It will be populated when you run: python scripts/main.py --setup

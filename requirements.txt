@@ -1,0 +1,33 @@
+# HousingMind RAG System Dependencies
+
+# Vector Database
+chromadb>=0.4.22
+
+# LLM and Embeddings
+openai>=1.12.0
+
+# Document Processing
+pypdf>=4.0.0
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-openai>=0.0.5
+
+# Text Processing
+tiktoken>=0.5.0
+python-dotenv>=1.0.0
+
+# Data Processing
+pandas>=2.0.0
+
+# Web Framework (for API)
+fastapi>=0.109.0
+uvicorn>=0.27.0
+
+# Optional: Streamlit for simple UI
+streamlit>=1.31.0
+
+# Optional: For hybrid search
+rank-bm25>=0.2.2
+
+# Development
+pytest>=8.0.0

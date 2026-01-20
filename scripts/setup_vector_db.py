@@ -12,7 +12,7 @@ from pathlib import Path
 import chromadb
 from chromadb.config import Settings
 from chromadb.utils import embedding_functions
-from langchain.schema import Document
+from langchain_core.documents import Document
 
 
 class HousingMindVectorDB:

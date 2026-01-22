@@ -32,8 +32,11 @@ pandas>=2.0.0
 fastapi>=0.109.0
 uvicorn>=0.27.0
 
+# Web UI - Gradio (recommended for feedback collection)
+gradio>=4.19.0
+
 # Optional: Streamlit for simple UI
-streamlit>=1.31.0
+# streamlit>=1.31.0
 
 # Optional: For hybrid search
 rank-bm25>=0.2.2

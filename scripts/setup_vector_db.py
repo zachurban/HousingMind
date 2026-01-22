@@ -3,6 +3,8 @@ HousingMind Vector Database Setup
 
 Sets up and manages the ChromaDB vector database for storing
 and retrieving housing policy document embeddings.
+
+Uses BAAI/bge-large-en-v1.5 for embeddings (1024 dimensions).
 """
 
 import os
@@ -12,32 +14,40 @@ from pathlib import Path
 import chromadb
 from chromadb.config import Settings
 from chromadb.utils import embedding_functions
-from langchain.schema import Document
+from langchain_core.documents import Document
+
+
+# Default embedding model optimized for Llama 3.1
+DEFAULT_EMBEDDING_MODEL = "BAAI/bge-large-en-v1.5"
 
 
 class HousingMindVectorDB:
     """
     Manages the vector database for HousingMind RAG system.
 
-    Uses ChromaDB with OpenAI embeddings for semantic search
-    across housing policy documents.
+    Uses ChromaDB with BGE embeddings for semantic search
+    across housing policy documents. Optimized for use with
+    Llama 3.1 8B Instruct.
     """
 
     def __init__(self,
                  persist_directory: str = "./vector_db",
                  collection_name: str = "housing_docs",
-                 embedding_model: str = "text-embedding-3-large"):
+                 embedding_model: str = DEFAULT_EMBEDDING_MODEL,
+                 device: str = "cpu"):
         """
         Initialize the vector database.
 
         Args:
             persist_directory: Directory to store the database
             collection_name: Name of the document collection
-            embedding_model: OpenAI embedding model to use
+            embedding_model: HuggingFace embedding model to use
+            device: Device for embeddings ('cpu', 'cuda', 'mps')
         """
         self.persist_directory = persist_directory
         self.collection_name = collection_name
         self.embedding_model = embedding_model
+        self.device = device
 
         # Create persist directory if it doesn't exist
         Path(persist_directory).mkdir(parents=True, exist_ok=True)
@@ -51,17 +61,13 @@ class HousingMindVectorDB:
             )
         )
 
-        # Set up OpenAI embeddings
-        api_key = os.environ.get("OPENAI_API_KEY")
-        if not api_key:
-            raise ValueError(
-                "OPENAI_API_KEY environment variable is required. "
-                "Set it with: export OPENAI_API_KEY='your-key'"
-            )
+        # Set up BGE embeddings using sentence-transformers
+        print(f"Loading embedding model: {embedding_model}")
+        print(f"Device: {device}")
 
-        self.embedding_function = embedding_functions.OpenAIEmbeddingFunction(
-            api_key=api_key,
-            model_name=embedding_model
+        self.embedding_function = embedding_functions.SentenceTransformerEmbeddingFunction(
+            model_name=embedding_model,
+            device=device
         )
 
         # Get or create collection
@@ -70,20 +76,21 @@ class HousingMindVectorDB:
             embedding_function=self.embedding_function,
             metadata={
                 "description": "HousingMind affordable housing policy documents",
-                "embedding_model": embedding_model
+                "embedding_model": embedding_model,
+                "hnsw:space": "cosine"  # BGE embeddings work best with cosine similarity
             }
         )
 
         print(f"Vector DB initialized at: {persist_directory}")
         print(f"Collection '{collection_name}' has {self.collection.count()} documents")
 
-    def add_documents(self, documents: List[Document], batch_size: int = 100):
+    def add_documents(self, documents: List[Document], batch_size: int = 50):
         """
         Add documents to the vector database.
 
         Args:
             documents: List of Document objects to add
-            batch_size: Number of documents to process per batch
+            batch_size: Number of documents to process per batch (smaller for BGE)
         """
         if not documents:
             print("No documents to add")
@@ -113,7 +120,7 @@ class HousingMindVectorDB:
                     clean_metadata[key] = str(value)
             metadatas.append(clean_metadata)
 
-        # Add in batches
+        # Add in batches (smaller batches for local embeddings)
         total_batches = (len(documents) + batch_size - 1) // batch_size
 
         for i in range(0, len(documents), batch_size):
@@ -317,11 +324,18 @@ def main():
     parser.add_argument("--db-path", "-d",
                        default="../vector_db",
                        help="Path to vector database")
+    parser.add_argument("--device",
+                       default="cpu",
+                       choices=["cpu", "cuda", "mps"],
+                       help="Device for embeddings")
 
     args = parser.parse_args()
 
     # Initialize database
-    db = HousingMindVectorDB(persist_directory=args.db_path)
+    db = HousingMindVectorDB(
+        persist_directory=args.db_path,
+        device=args.device
+    )
 
     if args.action == "stats":
         stats = db.get_collection_stats()

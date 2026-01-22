@@ -8,6 +8,11 @@ vector_db/
 !vector_db/.gitkeep
 chroma_db/
 
+# Feedback database (user data)
+data/*.db
+data/*.jsonl
+!data/.gitkeep
+
 # Python
 __pycache__/
 *.py[cod]

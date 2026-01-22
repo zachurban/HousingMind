@@ -3,18 +3,29 @@
 # Vector Database
 chromadb>=0.4.22
 
-# LLM and Embeddings
-openai>=1.12.0
+# LLM - Llama 3.1 8B (choose one option)
+# Option 1: Ollama (recommended for local use)
+ollama>=0.4.0
+
+# Option 2: HuggingFace Transformers (for direct model loading)
+# torch>=2.0.0
+# transformers>=4.40.0
+# accelerate>=0.27.0
+
+# Embeddings - BAAI/bge-large-en-v1.5
+sentence-transformers>=2.5.0
 
 # Document Processing
 pypdf>=4.0.0
+pymupdf>=1.23.0  # For advanced PDF extraction (fitz)
 langchain>=0.1.0
 langchain-community>=0.0.20
-langchain-openai>=0.0.5
+langchain-text-splitters>=0.0.1
+langchain-core>=0.1.0
 
 # Text Processing
-tiktoken>=0.5.0
 python-dotenv>=1.0.0
+nltk>=3.8.0  # For sentence tokenization
 
 # Data Processing
 pandas>=2.0.0
@@ -23,11 +34,18 @@ pandas>=2.0.0
 fastapi>=0.109.0
 uvicorn>=0.27.0
 
+# Web UI - Gradio (recommended for feedback collection)
+gradio>=4.19.0
+
 # Optional: Streamlit for simple UI
-streamlit>=1.31.0
+# streamlit>=1.31.0
 
 # Optional: For hybrid search
 rank-bm25>=0.2.2
+
+# Optional: OpenAI (if you want to use OpenAI as fallback)
+openai>=1.12.0
+tiktoken>=0.5.0
 
 # Development
 pytest>=8.0.0

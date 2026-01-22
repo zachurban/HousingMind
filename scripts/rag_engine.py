@@ -3,6 +3,8 @@ HousingMind RAG Engine
 
 The main query engine that combines vector search with LLM generation
 to provide accurate, source-cited responses about housing policy.
+
+Uses Llama 3.1 8B Instruct via Ollama for generation.
 """
 
 import os
@@ -10,8 +12,13 @@ import re
 from typing import List, Dict, Optional, Any
 from dataclasses import dataclass
 
-from openai import OpenAI
+import ollama
 from setup_vector_db import HousingMindVectorDB
+
+
+# Default model configuration
+DEFAULT_MODEL = "llama3.1:8b-instruct-q8_0"  # High quality quantization
+FALLBACK_MODEL = "llama3.1:8b"  # Standard version
 
 
 @dataclass
@@ -29,7 +36,7 @@ class HousingMindRAG:
     RAG (Retrieval-Augmented Generation) engine for HousingMind.
 
     Combines semantic search over housing policy documents with
-    GPT-4 generation to provide accurate, cited answers.
+    Llama 3.1 8B Instruct generation to provide accurate, cited answers.
     """
 
     SYSTEM_PROMPT = """You are HousingMind, an expert assistant on U.S. affordable housing policy, HUD regulations, and housing program administration.
@@ -54,44 +61,28 @@ When answering questions:
 
 IMPORTANT: If the provided context does not contain relevant information for the question, say so explicitly. Do not make up regulations or policies."""
 
-    QUERY_REWRITE_PROMPT = """Rewrite the following user question to be more specific and searchable for a housing policy document database.
-The database contains HUD regulations, PIH notices, handbooks, LIHTC guidance, and housing program policies.
-
-Original question: {query}
-
-Rewrite the question to:
-1. Use official HUD/housing terminology
-2. Be specific about which program (HCV, Public Housing, LIHTC, RAD) if relevant
-3. Include relevant regulatory references if obvious
-
-Rewritten question (provide only the rewritten question, no explanation):"""
-
     def __init__(self,
                  vector_db: Optional[HousingMindVectorDB] = None,
                  db_path: str = "../vector_db",
-                 model: str = "gpt-4-turbo-preview",
+                 model: str = DEFAULT_MODEL,
                  temperature: float = 0.3,
-                 use_query_rewriting: bool = False):
+                 ollama_host: str = None):
         """
         Initialize the RAG engine.
 
         Args:
             vector_db: Pre-initialized vector database (optional)
             db_path: Path to vector database (if vector_db not provided)
-            model: OpenAI model to use for generation
+            model: Ollama model to use for generation
             temperature: Generation temperature (lower = more focused)
-            use_query_rewriting: Whether to rewrite queries for better retrieval
+            ollama_host: Ollama server URL (default: http://localhost:11434)
         """
         self.model = model
         self.temperature = temperature
-        self.use_query_rewriting = use_query_rewriting
+        self.ollama_host = ollama_host or os.environ.get("OLLAMA_HOST", "http://localhost:11434")
 
-        # Initialize OpenAI client
-        api_key = os.environ.get("OPENAI_API_KEY")
-        if not api_key:
-            raise ValueError("OPENAI_API_KEY environment variable is required")
-
-        self.client = OpenAI(api_key=api_key)
+        # Verify Ollama connection and model availability
+        self._verify_ollama_setup()
 
         # Initialize or use provided vector database
         if vector_db:
@@ -99,32 +90,26 @@ Rewritten question (provide only the rewritten question, no explanation):"""
         else:
             self.vector_db = HousingMindVectorDB(persist_directory=db_path)
 
-    def _rewrite_query(self, query: str) -> str:
-        """
-        Optionally rewrite query for better retrieval.
-
-        Args:
-            query: Original user query
-
-        Returns:
-            Rewritten query optimized for search
-        """
-        if not self.use_query_rewriting:
-            return query
-
+    def _verify_ollama_setup(self):
+        """Verify Ollama is running and model is available."""
         try:
-            response = self.client.chat.completions.create(
-                model="gpt-3.5-turbo",  # Use faster model for rewriting
-                messages=[
-                    {"role": "user", "content": self.QUERY_REWRITE_PROMPT.format(query=query)}
-                ],
-                temperature=0.3,
-                max_tokens=200
-            )
-            rewritten = response.choices[0].message.content.strip()
-            return rewritten if rewritten else query
-        except Exception:
-            return query
+            # Check if Ollama is running
+            models = ollama.list()
+            available_models = [m['name'] for m in models.get('models', [])]
+
+            # Check if our model is available
+            model_base = self.model.split(':')[0]
+            if not any(model_base in m for m in available_models):
+                print(f"Warning: Model '{self.model}' not found locally.")
+                print(f"Available models: {available_models}")
+                print(f"\nTo download, run: ollama pull {self.model}")
+                print("Continuing anyway - Ollama will pull the model on first use.")
+
+        except Exception as e:
+            print(f"Warning: Could not connect to Ollama at {self.ollama_host}")
+            print(f"Error: {str(e)}")
+            print("\nMake sure Ollama is running: ollama serve")
+            print(f"Then pull the model: ollama pull {self.model}")
 
     def _extract_citations(self, text: str) -> List[str]:
         """
@@ -212,12 +197,9 @@ Rewritten question (provide only the rewritten question, no explanation):"""
         Returns:
             RAGResponse with answer, sources, and metadata
         """
-        # Optionally rewrite query for better retrieval
-        search_query = self._rewrite_query(query)
-
         # Retrieve relevant documents
         search_results = self.vector_db.search(
-            query=search_query,
+            query=query,
             n_results=n_results,
             filter_metadata=filter_metadata
         )
@@ -250,18 +232,20 @@ QUESTION: {query}
 
 Please provide a detailed, accurate answer based on the context above. Cite specific sources, regulations, or notice numbers when applicable."""
 
-        # Generate response
-        response = self.client.chat.completions.create(
+        # Generate response using Ollama
+        response = ollama.chat(
             model=self.model,
             messages=[
                 {"role": "system", "content": self.SYSTEM_PROMPT},
                 {"role": "user", "content": user_prompt}
             ],
-            temperature=self.temperature,
-            max_tokens=2000
+            options={
+                "temperature": self.temperature,
+                "num_predict": 2000,  # Max tokens
+            }
         )
 
-        answer = response.choices[0].message.content
+        answer = response['message']['content']
 
         # Extract citations from the answer
         citations = self._extract_citations(answer)
@@ -326,17 +310,19 @@ QUESTION: {query}
 
 Please provide a detailed answer based on the context above."""
 
-        response = self.client.chat.completions.create(
+        response = ollama.chat(
             model=self.model,
             messages=[
                 {"role": "system", "content": self.SYSTEM_PROMPT},
                 {"role": "user", "content": user_prompt}
             ],
-            temperature=self.temperature,
-            max_tokens=2000
+            options={
+                "temperature": self.temperature,
+                "num_predict": 2000,
+            }
         )
 
-        answer = response.choices[0].message.content
+        answer = response['message']['content']
         citations = self._extract_citations(answer)
 
         return RAGResponse(
@@ -351,6 +337,7 @@ Please provide a detailed answer based on the context above."""
         """Run an interactive query session."""
         print("\n" + "=" * 60)
         print("  HousingMind RAG System")
+        print(f"  Model: {self.model}")
         print("  Ask questions about affordable housing policy")
         print("=" * 60)
         print("\nCommands:")
@@ -389,7 +376,7 @@ Please provide a detailed answer based on the context above."""
                 print()
                 continue
 
-            print("\nSearching knowledge base...\n")
+            print("\nSearching knowledge base and generating response...\n")
 
             try:
                 result = self.query(query)
@@ -415,7 +402,8 @@ Please provide a detailed answer based on the context above."""
                 print("\n" + "-" * 60 + "\n")
 
             except Exception as e:
-                print(f"\nError: {str(e)}\n")
+                print(f"\nError: {str(e)}")
+                print("Make sure Ollama is running: ollama serve\n")
 
 
 def main():
@@ -433,8 +421,8 @@ def main():
                        default="../vector_db",
                        help="Path to vector database")
     parser.add_argument("--model", "-m",
-                       default="gpt-4-turbo-preview",
-                       help="OpenAI model to use")
+                       default=DEFAULT_MODEL,
+                       help=f"Ollama model to use (default: {DEFAULT_MODEL})")
     parser.add_argument("--results", "-n",
                        type=int, default=5,
                        help="Number of documents to retrieve")

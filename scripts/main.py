@@ -5,6 +5,11 @@ HousingMind RAG System - Main Entry Point
 This script provides the complete pipeline for setting up and running
 the HousingMind RAG (Retrieval-Augmented Generation) system.
 
+Uses:
+- Llama 3.1 8B Instruct via Ollama for generation
+- BAAI/bge-large-en-v1.5 for embeddings
+- ChromaDB for vector storage
+
 Usage:
     # Full setup (process documents + build database + run queries)
     python main.py --setup
@@ -33,8 +38,8 @@ SCRIPT_DIR = Path(__file__).parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
 from process_documents import HousingDocProcessor
-from setup_vector_db import HousingMindVectorDB
-from rag_engine import HousingMindRAG
+from setup_vector_db import HousingMindVectorDB, DEFAULT_EMBEDDING_MODEL
+from rag_engine import HousingMindRAG, DEFAULT_MODEL
 
 
 # Default paths (relative to script location)
@@ -46,7 +51,8 @@ def setup_housingmind(raw_docs_path: str = None,
                       vector_db_path: str = None,
                       chunk_size: int = 800,
                       chunk_overlap: int = 200,
-                      max_files: int = None) -> HousingMindVectorDB:
+                      max_files: int = None,
+                      device: str = "cpu") -> HousingMindVectorDB:
     """
     Complete setup pipeline: process documents and build vector database.
 
@@ -56,6 +62,7 @@ def setup_housingmind(raw_docs_path: str = None,
         chunk_size: Size of text chunks
         chunk_overlap: Overlap between chunks
         max_files: Maximum files to process (for testing)
+        device: Device for embeddings ('cpu', 'cuda', 'mps')
 
     Returns:
         Initialized vector database
@@ -69,6 +76,8 @@ def setup_housingmind(raw_docs_path: str = None,
     print(f"\nConfiguration:")
     print(f"  Raw documents: {raw_docs_path}")
     print(f"  Vector DB path: {vector_db_path}")
+    print(f"  Embedding model: {DEFAULT_EMBEDDING_MODEL}")
+    print(f"  Device: {device}")
     print(f"  Chunk size: {chunk_size}")
     print(f"  Chunk overlap: {chunk_overlap}")
     if max_files:
@@ -107,7 +116,8 @@ def setup_housingmind(raw_docs_path: str = None,
 
     vector_db = HousingMindVectorDB(
         persist_directory=vector_db_path,
-        collection_name="housing_docs"
+        collection_name="housing_docs",
+        device=device
     )
 
     # Step 3: Add documents to database
@@ -126,12 +136,23 @@ def setup_housingmind(raw_docs_path: str = None,
     print(f"  Total documents: {db_stats['total_documents']}")
     print(f"  Collection: {db_stats['collection_name']}")
     print(f"  Location: {db_stats['persist_directory']}")
+    print(f"  Embedding model: {db_stats['embedding_model']}")
     print(f"\nDocument types (sample):")
     for doc_type, count in db_stats.get('document_types_sample', {}).items():
         print(f"    {doc_type}: {count}")
     print(f"\nTopics (sample):")
     for topic, count in db_stats.get('topics_sample', {}).items():
         print(f"    {topic}: {count}")
+
+    print("\n" + "=" * 60)
+    print("  Next Steps:")
+    print("=" * 60)
+    print("  1. Make sure Ollama is running:")
+    print("     ollama serve")
+    print(f"  2. Pull the model (if not already):")
+    print(f"     ollama pull {DEFAULT_MODEL}")
+    print("  3. Run queries:")
+    print("     python main.py --query")
 
     return vector_db
 
@@ -175,8 +196,9 @@ def build_database_only(documents_path: str = None,
 
 
 def run_query_mode(vector_db_path: str = None,
-                   model: str = "gpt-4-turbo-preview",
-                   single_query: str = None):
+                   model: str = DEFAULT_MODEL,
+                   single_query: str = None,
+                   device: str = "cpu"):
     """Run the RAG query system."""
     vector_db_path = vector_db_path or str(DEFAULT_VECTOR_DB)
 
@@ -187,6 +209,9 @@ def run_query_mode(vector_db_path: str = None,
         return
 
     # Initialize RAG engine
+    print(f"Loading model: {model}")
+    print("(Make sure Ollama is running: ollama serve)\n")
+
     rag = HousingMindRAG(
         db_path=vector_db_path,
         model=model
@@ -220,15 +245,21 @@ def main():
     load_dotenv()
 
     parser = argparse.ArgumentParser(
-        description="HousingMind RAG System",
+        description="HousingMind RAG System - Llama 3.1 + BGE Embeddings",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
   python main.py --setup                    # Full setup
   python main.py --setup --max-files 100    # Setup with limited files (testing)
+  python main.py --setup --device cuda      # Use GPU for embeddings
   python main.py --query                    # Interactive query mode
   python main.py --query "What is RAD?"     # Single query
   python main.py --process-docs             # Process documents only
+
+Prerequisites:
+  1. Install Ollama: https://ollama.ai
+  2. Pull the model: ollama pull llama3.1:8b-instruct-q8_0
+  3. Start Ollama: ollama serve
         """
     )
 
@@ -263,17 +294,14 @@ Examples:
 
     # Model arguments
     parser.add_argument("--model",
-                       default="gpt-4-turbo-preview",
-                       help="OpenAI model for generation (default: gpt-4-turbo-preview)")
+                       default=DEFAULT_MODEL,
+                       help=f"Ollama model for generation (default: {DEFAULT_MODEL})")
+    parser.add_argument("--device",
+                       default="cpu",
+                       choices=["cpu", "cuda", "mps"],
+                       help="Device for embeddings (default: cpu)")
 
     args = parser.parse_args()
-
-    # Check for OPENAI_API_KEY
-    if not os.environ.get("OPENAI_API_KEY"):
-        print("Error: OPENAI_API_KEY environment variable is required.")
-        print("Set it with: export OPENAI_API_KEY='your-api-key'")
-        print("Or create a .env file with: OPENAI_API_KEY=your-api-key")
-        sys.exit(1)
 
     # Execute requested action
     if args.setup:
@@ -282,7 +310,8 @@ Examples:
             vector_db_path=args.db_path,
             chunk_size=args.chunk_size,
             chunk_overlap=args.overlap,
-            max_files=args.max_files
+            max_files=args.max_files,
+            device=args.device
         )
     elif args.process_docs:
         process_documents_only(
@@ -300,18 +329,21 @@ Examples:
         run_query_mode(
             vector_db_path=args.db_path,
             model=args.model,
-            single_query=single_query
+            single_query=single_query,
+            device=args.device
         )
     else:
         # Default: show help
         parser.print_help()
         print("\n" + "=" * 60)
         print("Quick Start:")
-        print("  1. Set your OpenAI API key:")
-        print("     export OPENAI_API_KEY='your-key'")
-        print("  2. Run setup to process documents:")
+        print("=" * 60)
+        print("  1. Install Ollama from https://ollama.ai")
+        print(f"  2. Pull the model: ollama pull {DEFAULT_MODEL}")
+        print("  3. Start Ollama: ollama serve")
+        print("  4. Run setup to process documents:")
         print("     python main.py --setup")
-        print("  3. Query the system:")
+        print("  5. Query the system:")
         print("     python main.py --query")
         print("=" * 60)
 

@@ -3,6 +3,10 @@ HousingMind RAG API Server
 
 FastAPI server providing REST API endpoints for the HousingMind RAG system.
 
+Uses:
+- Llama 3.1 8B Instruct via Ollama for generation
+- BAAI/bge-large-en-v1.5 for embeddings
+
 Usage:
     uvicorn api.server:app --reload --port 8000
 
@@ -30,8 +34,8 @@ from dotenv import load_dotenv
 SCRIPT_DIR = Path(__file__).parent.parent / "scripts"
 sys.path.insert(0, str(SCRIPT_DIR))
 
-from setup_vector_db import HousingMindVectorDB
-from rag_engine import HousingMindRAG
+from setup_vector_db import HousingMindVectorDB, DEFAULT_EMBEDDING_MODEL
+from rag_engine import HousingMindRAG, DEFAULT_MODEL
 
 # Load environment variables
 load_dotenv()
@@ -49,17 +53,22 @@ async def lifespan(app: FastAPI):
     global rag_engine
 
     db_path = os.environ.get("VECTOR_DB_PATH", str(DEFAULT_VECTOR_DB))
-    model = os.environ.get("OPENAI_MODEL", "gpt-4-turbo-preview")
-
-    if not os.environ.get("OPENAI_API_KEY"):
-        raise RuntimeError("OPENAI_API_KEY environment variable is required")
+    model = os.environ.get("OLLAMA_MODEL", DEFAULT_MODEL)
+    device = os.environ.get("EMBEDDING_DEVICE", "cpu")
 
     try:
         rag_engine = HousingMindRAG(db_path=db_path, model=model)
-        print(f"RAG engine initialized with database at: {db_path}")
+        print(f"RAG engine initialized")
+        print(f"  Database: {db_path}")
+        print(f"  Model: {model}")
+        print(f"  Embeddings: {DEFAULT_EMBEDDING_MODEL}")
     except Exception as e:
         print(f"Warning: Could not initialize RAG engine: {e}")
         print("API will start but queries will fail until database is set up.")
+        print("\nMake sure:")
+        print("  1. Vector database exists (run: python scripts/main.py --setup)")
+        print("  2. Ollama is running (run: ollama serve)")
+        print(f"  3. Model is pulled (run: ollama pull {model})")
 
     yield
 
@@ -70,7 +79,7 @@ async def lifespan(app: FastAPI):
 # Create FastAPI app
 app = FastAPI(
     title="HousingMind RAG API",
-    description="API for querying affordable housing policy documents using RAG",
+    description="API for querying affordable housing policy documents using RAG with Llama 3.1",
     version="1.0.0",
     lifespan=lifespan
 )
@@ -135,6 +144,8 @@ class HealthResponse(BaseModel):
     status: str
     database_ready: bool
     document_count: int
+    model: str
+    embedding_model: str
 
 
 # API Endpoints
@@ -145,7 +156,9 @@ async def health_check():
         return HealthResponse(
             status="degraded",
             database_ready=False,
-            document_count=0
+            document_count=0,
+            model=DEFAULT_MODEL,
+            embedding_model=DEFAULT_EMBEDDING_MODEL
         )
 
     try:
@@ -153,13 +166,17 @@ async def health_check():
         return HealthResponse(
             status="healthy",
             database_ready=True,
-            document_count=stats["total_documents"]
+            document_count=stats["total_documents"],
+            model=rag_engine.model,
+            embedding_model=stats["embedding_model"]
         )
     except Exception as e:
         return HealthResponse(
             status="error",
             database_ready=False,
-            document_count=0
+            document_count=0,
+            model=DEFAULT_MODEL,
+            embedding_model=DEFAULT_EMBEDDING_MODEL
         )
 
 
@@ -284,6 +301,8 @@ async def root():
         "name": "HousingMind RAG API",
         "version": "1.0.0",
         "description": "Query affordable housing policy documents",
+        "model": DEFAULT_MODEL,
+        "embedding_model": DEFAULT_EMBEDDING_MODEL,
         "docs_url": "/docs",
         "health_url": "/health"
     }

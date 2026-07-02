@@ -5,13 +5,14 @@ Removed: 0
 Status changed: 0
 
 === Corpus at raw_documents/PIH_Notices_25_20 ===
-Local files:     210
-Missing locally: 21
+Local files:     209
+Missing locally: 22
   + PIH-2020-01 Revised Policies and Procedures for the Mainstream Voucher Program
   + PIH-2020-02 Section 209: Guidance for Shared Waiting Lists
   + PIH-2020-03 Public Housing Operating Fund (OpFund) Grant Eligibility Calculations 
   + PIH-2020-04 Implementation of Federal Fiscal Year (FFY) 2020 Funding Provisions fo
   + PIH-2020-14 Registration of Interest for HUD-VASH Vouchers
+  + PIH-2021-13 NHHBG-ARP Implementation Notice (Attachment-NHHP-APR) (Attachment-5009
   + PIH-2023-10 Emergency Safety and Security Grants Annual Funding Notification and A
   + PIH-2026-02 Process for Recapture and Reallocation of Services Fees for the Emerge
   + PIH-2026-03 Implementation of the Reduced Elevated Blood Lead Level Triggering Res

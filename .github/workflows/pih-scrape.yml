@@ -1,0 +1,62 @@
+name: PIH Notices Scrape
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"      # Every Monday at 12:00 UTC (05:00 Denver / 07:00 ET)
+  workflow_dispatch:            # Manual trigger from the Actions tab
+
+permissions:
+  contents: write               # to commit the manifest back to the repo
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Preserve previous manifest for diff
+        run: |
+          if [ -f pipeline/pih_manifest.json ]; then
+            cp pipeline/pih_manifest.json pipeline/pih_manifest.prev.json
+          fi
+
+      - name: Run scraper
+        run: |
+          mkdir -p pipeline
+          python pipeline/scrape_pih_notices.py \
+            -o pipeline/pih_manifest.json \
+            --corpus raw_documents/PIH_Notices_25_20 \
+            $( [ -f pipeline/pih_manifest.prev.json ] && echo "--diff pipeline/pih_manifest.prev.json" ) \
+            | tee pipeline/last_run_report.md
+
+      - name: Clean up prev file
+        run: rm -f pipeline/pih_manifest.prev.json
+
+      - name: Commit changes
+        run: |
+          git config user.name "housingmind-bot"
+          git config user.email "bot@housingmind.io"
+          git add pipeline/pih_manifest.json pipeline/last_run_report.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            # Extract counts for a useful commit message
+            SUMMARY=$(python -c "import json; m=json.load(open('pipeline/pih_manifest.json')); print(f\"{m['notice_count']} notices ({m['counts_by_state']})\")")
+            git commit -m "chore: update PIH manifest — $SUMMARY"
+            git push
+          fi
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## PIH Scrape Result" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat pipeline/last_run_report.md >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY

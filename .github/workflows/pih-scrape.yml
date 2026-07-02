@@ -1,62 +1,82 @@
-name: PIH Notices Scrape
+name: PIH Notices Ingest
 
 on:
-  schedule:
-    - cron: "0 12 * * 1"      # Every Monday at 12:00 UTC (05:00 Denver / 07:00 ET)
-  workflow_dispatch:            # Manual trigger from the Actions tab
+  # Run after the scraper pushes a manifest change
+  workflow_run:
+    workflows: ["PIH Notices Scrape"]
+    types: [completed]
+  # Also allow manual runs
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max notices to ingest this run (blank = all pending)"
+        required: false
+        default: ""
+      only:
+        description: "Specific notice IDs (space-separated, e.g. PIH-2025-30 PIH-2026-16)"
+        required: false
+        default: ""
 
 permissions:
-  contents: write               # to commit the manifest back to the repo
+  contents: write   # to commit updated ingested_state.json
 
 jobs:
-  scrape:
+  ingest:
+    # For workflow_run: only run if the scraper succeeded
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main       # ensure we see the manifest the scraper just pushed
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
-
-      - name: Preserve previous manifest for diff
         run: |
-          if [ -f pipeline/pih_manifest.json ]; then
-            cp pipeline/pih_manifest.json pipeline/pih_manifest.prev.json
+          pip install --upgrade pip
+          pip install requests numpy PyMuPDF sentence-transformers huggingface_hub
+
+      - name: Cache Hugging Face model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-bge-large-en-v1.5
+
+      - name: Ingest new notices
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"
           fi
+          if [ -n "${{ github.event.inputs.only }}" ]; then
+            ARGS="$ARGS --only ${{ github.event.inputs.only }}"
+          fi
+          python pipeline/ingest_new_notices.py $ARGS | tee pipeline/last_ingest_report.md
 
-      - name: Run scraper
-        run: |
-          mkdir -p pipeline
-          python pipeline/scrape_pih_notices.py \
-            -o pipeline/pih_manifest.json \
-            --corpus raw_documents/PIH_Notices_25_20 \
-            $( [ -f pipeline/pih_manifest.prev.json ] && echo "--diff pipeline/pih_manifest.prev.json" ) \
-            | tee pipeline/last_run_report.md
-
-      - name: Clean up prev file
-        run: rm -f pipeline/pih_manifest.prev.json
-
-      - name: Commit changes
+      - name: Commit ingested state
         run: |
           git config user.name "housingmind-bot"
           git config user.email "bot@housingmind.io"
-          git add pipeline/pih_manifest.json pipeline/last_run_report.md
+          git add pipeline/ingested_state.json pipeline/last_ingest_report.md
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "Nothing new ingested."
           else
-            # Extract counts for a useful commit message
-            SUMMARY=$(python -c "import json; m=json.load(open('pipeline/pih_manifest.json')); print(f\"{m['notice_count']} notices ({m['counts_by_state']})\")")
-            git commit -m "chore: update PIH manifest — $SUMMARY"
+            git commit -m "chore: ingested new PIH notices"
             git push
           fi
 
       - name: Summary
         if: always()
         run: |
-          echo "## PIH Scrape Result" >> $GITHUB_STEP_SUMMARY
+          echo "## PIH Ingest Result" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          cat pipeline/last_run_report.md >> $GITHUB_STEP_SUMMARY
+          cat pipeline/last_ingest_report.md >> $GITHUB_STEP_SUMMARY || echo "(no report)" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY

@@ -61,9 +61,14 @@ EXPIRED_RE = re.compile(
     re.IGNORECASE,
 )
 
-# Filenames in the local corpus, e.g. "PIH_2025-23.pdf", "2024-16pihn.pdf",
-# "PIH-2026-06.pdf". Anchor on YYYY-NN pattern with 4-digit year 2000–2099.
-FILENAME_NOTICE_RE = re.compile(r"(20\d{2}-\d{1,3})", re.IGNORECASE)
+# Filenames in the local corpus. Must START with either "PIH[-_ ]YYYY-NN" or
+# "YYYY-NN" (optionally followed by "pihn"), then a separator or end.
+# This avoids false-positive matches on attachments like
+# "Total-Development-Costs-2025-24-Table.pdf" (where the year is embedded).
+FILENAME_NOTICE_RE = re.compile(
+    r"^(?:PIH[-_ ]?)?(20\d{2}-\d{1,3})(?:pihn)?(?:[-_.]|$)",
+    re.IGNORECASE,
+)
 
 # Notice number in the "Document Number" cell (sometimes has "(Revised)" etc.)
 DOC_NUMBER_RE = re.compile(r"^\s*(\d{4}-\d{1,3})\b\s*(.*)$")

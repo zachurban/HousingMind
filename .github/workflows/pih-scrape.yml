@@ -65,7 +65,8 @@ jobs:
         run: |
           git config user.name "housingmind-bot"
           git config user.email "bot@housingmind.io"
-          git add pipeline/ingested_state.json pipeline/last_ingest_report.md
+          # -A stages new/modified/deleted, tolerant if either file is missing
+          git add -A pipeline/
           if git diff --cached --quiet; then
             echo "Nothing new ingested."
           else

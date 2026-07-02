@@ -1,4 +1,9 @@
 
+=== Diff vs previous manifest ===
+Added:   0
+Removed: 0
+Status changed: 0
+
 === Corpus at raw_documents/PIH_Notices_25_20 ===
 Local files:     210
 Missing locally: 21

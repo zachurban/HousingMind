@@ -1,0 +1,3746 @@
+{
+  "scraped_at": "2026-07-02T15:32:02.126211+00:00",
+  "source_url": "https://www.hud.gov/hudclips/notices/pih",
+  "notice_count": 231,
+  "counts_by_state": {
+    "active": 184,
+    "superseded": 13,
+    "rescinded": 20,
+    "amended": 12,
+    "expired": 2
+  },
+  "notices": {
+    "PIH-2026-16": {
+      "id": "PIH-2026-16",
+      "number": "2026-16",
+      "year": 2026,
+      "title": "Guidance on Eligibility for the Asset Repositioning Fee",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-16.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-15": {
+      "id": "PIH-2026-15",
+      "number": "2026-15",
+      "year": 2026,
+      "title": "Public Housing Agency Compliance Deadline for Sections 102 and 104 of the Housing Opportunity Through Modernization Act (HOTMA) and Alternative HUD-50058 Reporting Instructions",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-15.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-14": {
+      "id": "PIH-2026-14",
+      "number": "2026-14",
+      "year": 2026,
+      "title": "Procedural Guidance for Tribal Housing and Urban Development-Veterans Affairs Supportive Housing Fiscal Year 2026 Renewal Grant Application",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-14.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-13": {
+      "id": "PIH-2026-13",
+      "number": "2026-13",
+      "year": 2026,
+      "title": "Request for Applications under the Moving to Work Demonstration Program: Overall Impact of Moving to Work Flexibility and Administrative Efficiencies (Additional Agency Selection)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-13.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-12": {
+      "id": "PIH-2026-12",
+      "number": "2026-12",
+      "year": 2026,
+      "title": "Implementation of the Federal Fiscal Year (FFY) 2026 Funding Provisions for the Housing Choice Voucher Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-12.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-11": {
+      "id": "PIH-2026-11",
+      "number": "2026-11",
+      "year": 2026,
+      "title": "Required Use of the Enterprise Income Verification (EIV) System’s Deceased Tenants Report to Reduce Subsidy Payment and Administrative Errors",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-11.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-10": {
+      "id": "PIH-2026-10",
+      "number": "2026-10",
+      "year": 2026,
+      "title": "Implementation of Public Housing Operating Fund Shortfall Funding from Federal Fiscal Year 2026 Appropriations",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-10.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-09": {
+      "id": "PIH-2026-09",
+      "number": "2026-09",
+      "year": 2026,
+      "title": "Housing Opportunity Through Modernization Act (HOTMA) Sections 102 and 104 Implementation Guidance – Amendment to Attachment I Related to Interim Reexaminations",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-09.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-08": {
+      "id": "PIH-2026-08",
+      "number": "2026-08",
+      "year": 2026,
+      "title": "Recent Changes to the Federal Micro-Purchase, Simplified Acquisition, and Single Audit Act Thresholds and New Streamlined Procurement Requirements Attachment: Appendices",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-08.pdf",
+      "attachment_urls": [
+        "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-08-Appendices.pdf"
+      ],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-07": {
+      "id": "PIH-2026-07",
+      "number": "2026-07",
+      "year": 2026,
+      "title": "Rescission of Notice H-2020-09/PIH 2020-26",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-07.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-06": {
+      "id": "PIH-2026-06",
+      "number": "2026-06",
+      "year": 2026,
+      "title": "Rescission and Revision of Certain PIH Notices",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-05": {
+      "id": "PIH-2026-05",
+      "number": "2026-05",
+      "year": 2026,
+      "title": "Revision to Emergency Housing Voucher and Stability Voucher Program Requirements",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-05.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-04": {
+      "id": "PIH-2026-04",
+      "number": "2026-04",
+      "year": 2026,
+      "title": "Rescission of Notice PIH 2024-17",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-04.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-03": {
+      "id": "PIH-2026-03",
+      "number": "2026-03",
+      "year": 2026,
+      "title": "Implementation of the Reduced Elevated Blood Lead Level Triggering Response in Certain Assisted Target Housing",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/default/files/hudclips/documents/Implementation-of-the-Reduced-Elevated-Blood-Lead-Level-Triggering-Response-CPD-26-02-Hsng-N-26-03-OLHCHH-2026-01-PIH-2026-03.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-02": {
+      "id": "PIH-2026-02",
+      "number": "2026-02",
+      "year": 2026,
+      "title": "Process for Recapture and Reallocation of Services Fees for the Emergency Housing Voucher Program and Change to Portability Policy",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/PIH/documents/PIH-2026-02.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2026-01": {
+      "id": "PIH-2026-01",
+      "number": "2026-01",
+      "year": 2026,
+      "title": "2025 Additional Administrative Fees for HUD-VASH",
+      "revised": true,
+      "primary_url": "https://www.hud.gov/sites/dfiles/hudclips/documents/PIH-2026-01.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-30": {
+      "id": "PIH-2025-30",
+      "number": "2025-30",
+      "year": 2025,
+      "title": "Implementation of Public Housing Operating Fund Shortfall Funding from Federal Fiscal Year 2025 Appropriations",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/hudclips/documents/PIH-2025-30.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-29": {
+      "id": "PIH-2025-29",
+      "number": "2025-29",
+      "year": 2025,
+      "title": "Reporting Supplement to the Implementation of the Final Rule on Section 3 Regulations - 24 CFR Part 75",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH-2025-29.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-28": {
+      "id": "PIH-2025-28",
+      "number": "2025-28",
+      "year": 2025,
+      "title": "Cost Saving Measures in the Housing Choice Voucher (HCV) and Project Based Voucher (PBV) Programs",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH-2025-28.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-27": {
+      "id": "PIH-2025-27",
+      "number": "2025-27",
+      "year": 2025,
+      "title": "Revised Compliance Date for National Standards for the Physical Inspection of Real Estate (NSPIRE) New Affirmative Requirements",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH-2025-27.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-26": {
+      "id": "PIH-2025-26",
+      "number": "2025-26",
+      "year": 2025,
+      "title": "Rescission of Joint Notice PIH 2015-19 / H 2015-10, Guidance on the Use of Arrest Records in Housing Decisions",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH-2025-26.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-25": {
+      "id": "PIH-2025-25",
+      "number": "2025-25",
+      "year": 2025,
+      "title": "Total Development Cost for Affordable Housing Under the Native American Housing Assistance and Self-Determination Act of 1996. Attachment: 2025 Total Development Costs",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH-2025-25.pdf",
+      "attachment_urls": [
+        "https://www.hud.gov/sites/dfiles/PIH/documents/2025_Total_Development_Costs.pdf"
+      ],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-24": {
+      "id": "PIH-2025-24",
+      "number": "2025-24",
+      "year": 2025,
+      "title": "FY 2025 Family Self-Sufficiency Grant Program Annual Funding Notification and Application Process",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH-2025-24.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-23": {
+      "id": "PIH-2025-23",
+      "number": "2025-23",
+      "year": 2025,
+      "title": "Resident Opportunity Self-Sufficiency Rapid Response Program Funding Notification and Application Process",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-23.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-22": {
+      "id": "PIH-2025-22",
+      "number": "2025-22",
+      "year": 2025,
+      "title": "Public Housing Operating Subsidy Grant Eligibility Calculations and Processing for Calendar Year 2026",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-22.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-21": {
+      "id": "PIH-2025-21",
+      "number": "2025-21",
+      "year": 2025,
+      "title": "2025 Registration of Interest for HUD-VASH Vouchers",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-21.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-20": {
+      "id": "PIH-2025-20",
+      "number": "2025-20",
+      "year": 2025,
+      "title": "Operating Fund Federal Financial Report (SF-425) Submission Process",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-20.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-19": {
+      "id": "PIH-2025-19",
+      "number": "2025-19",
+      "year": 2025,
+      "title": "Guidance on Transitioning EHV Families into HCV and End of EHV Services Fee Expenditure",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-19.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-18": {
+      "id": "PIH-2025-18",
+      "number": "2025-18",
+      "year": 2025,
+      "title": "Automation of and Revisions to the Public Housing Agency (PHA) 5-Year Plan and Annual Plan Templates and Certification Forms",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-18.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-17": {
+      "id": "PIH-2025-17",
+      "number": "2025-17",
+      "year": 2025,
+      "title": "Requirements to Approve Vouchers via Manual Review in the Electronic Line of Credit Control System When Public Housing Agencies are in Noncompliance with Grant Terms and Award Conditions",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-17.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-16": {
+      "id": "PIH-2025-16",
+      "number": "2025-16",
+      "year": 2025,
+      "title": "Family Self-Sufficiency Grant Program Annual Funding Notification and Application Process – Revised",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-16.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "superseded",
+        "raw": "Superseded by Notice PIH 2025-24",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2025-24"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH-2025-24.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2025-15": {
+      "id": "PIH-2025-15",
+      "number": "2025-15",
+      "year": 2025,
+      "title": "Family Self-Sufficiency Grant Program General Funding Requirements and Procedures – Revised",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-15.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-14": {
+      "id": "PIH-2025-14",
+      "number": "2025-14",
+      "year": 2025,
+      "title": "Guidance on the Administration, Accurate Reporting, and Use of Public Housing Operating Funds",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-14.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-13": {
+      "id": "PIH-2025-13",
+      "number": "2025-13",
+      "year": 2025,
+      "title": "Implementation of the Federal Fiscal Year (FFY) 2025 Funding Provisions for the Housing Choice Voucher Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2025-13pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-12": {
+      "id": "PIH-2025-12",
+      "number": "2025-12",
+      "year": 2025,
+      "title": "Revised Guidance for Reasonable Accommodation Exception Payment Standards for the Housing Choice Voucher Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2025-12pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-11": {
+      "id": "PIH-2025-11",
+      "number": "2025-11",
+      "year": 2025,
+      "title": "Federal Supply Sources",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-11.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-10": {
+      "id": "PIH-2025-10",
+      "number": "2025-10",
+      "year": 2025,
+      "title": "Procedural Guidance for Tribal Housing and Urban Development-Veterans Affairs Supportive Housing (Tribal HUD-VASH) FY 2025 Renewal Grant Application",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH-2025-10.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-09": {
+      "id": "PIH-2025-09",
+      "number": "2025-09",
+      "year": 2025,
+      "title": "Application Instructions for the Indian Community Development Block Grant (ICDBG) Imminent Threat (IT) Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH-2025-09.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-08": {
+      "id": "PIH-2025-08",
+      "number": "2025-08",
+      "year": 2025,
+      "title": "Statutory and Regulatory Waivers for Family Unification Program (FUP) and Foster Youth to Independence (FYI) Vouchers",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-08.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-07": {
+      "id": "PIH-2025-07",
+      "number": "2025-07",
+      "year": 2025,
+      "title": "Emergency Housing Vouchers Leasing (Revised)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2025-07pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-06": {
+      "id": "PIH-2025-06",
+      "number": "2025-06",
+      "year": 2025,
+      "title": "Build America, Buy America Implementation Guidance For The Public Housing Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2025-06pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-05": {
+      "id": "PIH-2025-05",
+      "number": "2025-05",
+      "year": 2025,
+      "title": "Administrative Requirements for Investing Indian Housing Block Grant (IHBG) Funds",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2025-05pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-04": {
+      "id": "PIH-2025-04",
+      "number": "2025-04",
+      "year": 2025,
+      "title": "Federal Financial Report – Standard Form 425",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2025-04pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-03": {
+      "id": "PIH-2025-03",
+      "number": "2025-03",
+      "year": 2025,
+      "title": "Rental Assistance Demonstration – Supplemental Notice 4C",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2025-03pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-02": {
+      "id": "PIH-2025-02",
+      "number": "2025-02",
+      "year": 2025,
+      "title": "Procedural Guidance for Tribal Housing and Urban Development-Veterans Affairs Supportive Housing (Tribal HUD-VASH) Expansion Grant Applications",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2025-02pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2025-01": {
+      "id": "PIH-2025-01",
+      "number": "2025-01",
+      "year": 2025,
+      "title": "IHBG Determining and Using Program Income Under NAHASDA",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2025-01pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-42": {
+      "id": "PIH-2024-42",
+      "number": "2024-42",
+      "year": 2024,
+      "title": "Best Practice Guidance to Achieve Optimal Occupancy in Public Housing",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-42pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-41": {
+      "id": "PIH-2024-41",
+      "number": "2024-41",
+      "year": 2024,
+      "title": "Withdrawal of Section 22-Streamlined Voluntary Conversion Notice",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-41pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-40": {
+      "id": "PIH-2024-40",
+      "number": "2024-40",
+      "year": 2024,
+      "title": "Demolition and/or disposition of public housing property, eligibility for tenant protection vouchers, and associated requirements.",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-40pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-39": {
+      "id": "PIH-2024-39",
+      "number": "2024-39",
+      "year": 2024,
+      "title": "Revised Compliance Date for National Standards for the Physical Inspection of Real Estate (NSPIRE) New Affirmative Requirements",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-39pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-38": {
+      "id": "PIH-2024-38",
+      "number": "2024-38",
+      "year": 2024,
+      "title": "Housing Opportunity Through Modernization Act (HOTMA) Sections 102 and 104: Updated Guidance to Public Housing Agencies (PHAs) on Compliance",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-38pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-37": {
+      "id": "PIH-2024-37",
+      "number": "2024-37",
+      "year": 2024,
+      "title": "Extension of HOTMA Compliance Date for Tribes, TDHEs, and DHHL",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-37pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-36": {
+      "id": "PIH-2024-36",
+      "number": "2024-36",
+      "year": 2024,
+      "title": "Procedures for Requesting Approval to Develop Public Housing Units to be Offered to Families with Children in a High-Rise Elevator Structure",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-36pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-35": {
+      "id": "PIH-2024-35",
+      "number": "2024-35",
+      "year": 2024,
+      "title": "Build America, Buy America Act (BABA) – Implementation Guidance for Tribal Recipients",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-35pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-34": {
+      "id": "PIH-2024-34",
+      "number": "2024-34",
+      "year": 2024,
+      "title": "Updated and Consolidated Policy Guidance on Housing Choice Voucher (HCV) Program Payment Standards",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-34pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-33": {
+      "id": "PIH-2024-33",
+      "number": "2024-33",
+      "year": 2024,
+      "title": "FY2024 Family Self-Sufficiency Grant Program Annual Funding Notification and Application Process",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-33pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "superseded",
+        "raw": "Superseded by Notice PIH 2025-16",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2025-16"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-16.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2024-31": {
+      "id": "PIH-2024-31",
+      "number": "2024-31",
+      "year": 2024,
+      "title": "Guidance on the Rate Reduction Incentive in Public Housing",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-31pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "superseded",
+        "raw": "Superseded by Notice PIH 2025-15",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2025-15"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH_2025-15.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2024-30": {
+      "id": "PIH-2024-30",
+      "number": "2024-30",
+      "year": 2024,
+      "title": "Statutory and Regulatory Waivers for Mainstream Vouchers",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-30pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-29": {
+      "id": "PIH-2024-29",
+      "number": "2024-29",
+      "year": 2024,
+      "title": "HCV 2024 HAP Funding - Second Offset Based on Excess HAP Reserves",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-29pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-28": {
+      "id": "PIH-2024-28",
+      "number": "2024-28",
+      "year": 2024,
+      "title": "Total Development Cost (TDC) for Affordable Housing Under the Native American Housing Assistance and Self-Determination Act of 1996 (NAHASDA)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-28pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-27": {
+      "id": "PIH-2024-27",
+      "number": "2024-27",
+      "year": 2024,
+      "title": "Guidance on Energy Performance Contracts",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-27pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-26": {
+      "id": "PIH-2024-26",
+      "number": "2024-26",
+      "year": 2024,
+      "title": "Implementation of National Standards for the Physical Inspection of Real Estate (NSPIRE) Administrative Procedures for the Housing Choice Voucher (HCV) Programs, REVISION 1",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-26pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-25": {
+      "id": "PIH-2024-25",
+      "number": "2024-25",
+      "year": 2024,
+      "title": "Public Housing Operating Subsidy Grant Eligibility Calculations and Processing for Calendar Year (CY) 2025",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-25pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-24": {
+      "id": "PIH-2024-24",
+      "number": "2024-24",
+      "year": 2024,
+      "title": "HUD Programmatic Part 50 Environmental Review for Indian Housing Block Grant, Indian Community Development Block Grant, Title VI Loan Guarantee Program, Native Hawaiian Housing Block Grant, and Tribal HUD-Veterans Affairs Supportive Housing for soft costs (including administration, operations, maintenance, and planning), tenant based rental assistance, public and support services, and certain activities to assist homebuyers",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-24pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-23": {
+      "id": "PIH-2024-23",
+      "number": "2024-23",
+      "year": 2024,
+      "title": "Extending the 2024 Shortfall budget deadlines for Public Housing Agency Recipients of 2022 and 2023 Public Housing Shortfall Grants",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-23pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-22": {
+      "id": "PIH-2024-22",
+      "number": "2024-22",
+      "year": 2024,
+      "title": "Rescission of Housing Information Portal (HIP) Implementation Notice",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-22pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-21": {
+      "id": "PIH-2024-21",
+      "number": "2024-21",
+      "year": 2024,
+      "title": "HCV 2024 HAP Funding - Revised HAP Set-aside Shortfall Funding Requirements",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-21pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-20": {
+      "id": "PIH-2024-20",
+      "number": "2024-20",
+      "year": 2024,
+      "title": "Responding to Extreme Heat in Public Housing - Eligible Expenses and Individual Relief for Excess Utilities Consumption",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-20pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-19": {
+      "id": "PIH-2024-19",
+      "number": "2024-19",
+      "year": 2024,
+      "title": "HOTMA HCV and PBV Final Rule - Guidance on Effective and Compliance Dates and PHA Implementation Preparation",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-19pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-18": {
+      "id": "PIH-2024-18",
+      "number": "2024-18",
+      "year": 2024,
+      "title": "2024 Registration of Interest for HUD-VASH Vouchers",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-18-pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-17": {
+      "id": "PIH-2024-17",
+      "number": "2024-17",
+      "year": 2024,
+      "title": "Streamlined Review Process for Regulatory Waivers to Expedite Admission to the Housing Choice Voucher (HCV), Project-based Voucher (PBV), and Public Housing Programs for Persons Experiencing Homelessness",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-17pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-04",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-04"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-04.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2024-16": {
+      "id": "PIH-2024-16",
+      "number": "2024-16",
+      "year": 2024,
+      "title": "Implementation of the Federal Fiscal Year (FFY) 2024 Funding Provisions for the Housing Choice Voucher Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-16pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-15": {
+      "id": "PIH-2024-15",
+      "number": "2024-15",
+      "year": 2024,
+      "title": "Implementation of Public Housing Operating Fund Shortfall Funding from Federal Fiscal Year (FFY) 2024 Appropriations",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-15pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-14": {
+      "id": "PIH-2024-14",
+      "number": "2024-14",
+      "year": 2024,
+      "title": "Affordable Housing Activities Under title VIII of the Native American Housing Assistance and Self-Determination Act ( NAHASDA )",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-14pihn.pdf",
+      "attachment_urls": [
+        "https://www.hud.gov/sites/documents/doc_8141.pdf"
+      ],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-13": {
+      "id": "PIH-2024-13",
+      "number": "2024-13",
+      "year": 2024,
+      "title": "Procedural Guidance for Tribal Housing and Urban Development-Veterans Affairs Supportive Housing (Tribal-HUD-VASH) FY 2024 Renewal Grant Application",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-13pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-12": {
+      "id": "PIH-2024-12",
+      "number": "2024-12",
+      "year": 2024,
+      "title": "Housing Information Portal (HIP) Implementation",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-12pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2024-22",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2024-22"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-22pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2024-11": {
+      "id": "PIH-2024-11",
+      "number": "2024-11",
+      "year": 2024,
+      "title": "Voucher Management System Reporting Requirements for Moving to Work Public Housing Agencies",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-11pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-10": {
+      "id": "PIH-2024-10",
+      "number": "2024-10",
+      "year": 2024,
+      "title": "Additional Administrative Fees for HUD-VASH",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-10pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-09": {
+      "id": "PIH-2024-09",
+      "number": "2024-09",
+      "year": 2024,
+      "title": "Extension of the Adjustment to Tenant Accounts Receivable (TAR) Sub-indicator under the Management Assessment Subsystem (MASS) Indicator for the fiscal year 2023 Public Housing Assessment System (PHAS) assessment cycle",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-09pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-08": {
+      "id": "PIH-2024-08",
+      "number": "2024-08",
+      "year": 2024,
+      "title": "Indian Housing Block Grant (IHBG) Model Activity Requests",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-08pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-07": {
+      "id": "PIH-2024-07",
+      "number": "2024-07",
+      "year": 2024,
+      "title": "Calculating Annual Income for the Purposes of Eligibility under NAHASDA",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-07pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-06": {
+      "id": "PIH-2024-06",
+      "number": "2024-06",
+      "year": 2024,
+      "title": "Transition and Implementation of the Housing Opportunity Through Modernization Act of 2016 (HOTMA)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-06pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-05": {
+      "id": "PIH-2024-05",
+      "number": "2024-05",
+      "year": 2024,
+      "title": "Registration of interest for special administrative fees for development of a housing mobility-related services plan (HMRP) under PIH Notice 2023-07: Implementation of Federal Fiscal Year (FFY) 2023 Funding Provisions for the Housing Choice Voucher Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-05pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-04": {
+      "id": "PIH-2024-04",
+      "number": "2024-04",
+      "year": 2024,
+      "title": "Guidance on Eligible Uses for PIH Program Funds Related to Persons With Limited English Proficiency",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-04pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2024-03": {
+      "id": "PIH-2024-03",
+      "number": "2024-03",
+      "year": 2024,
+      "title": "Guidance on Inventory Management System/PIH Information Center (IMS-PIC) Sub-Module Reporting and Validation",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-03pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-02": {
+      "id": "PIH-2024-02",
+      "number": "2024-02",
+      "year": 2024,
+      "title": "Shortfall Grant SF-425 Reporting Requirements",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-02pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2024-01": {
+      "id": "PIH-2024-01",
+      "number": "2024-01",
+      "year": 2024,
+      "title": "Build America, Buy America Implementation Guidance for the Public Housing Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-01pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "superseded",
+        "raw": "Superseded by Notice PIH 2025-06",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2025-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2025-06pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2023-35": {
+      "id": "PIH-2023-35",
+      "number": "2023-35",
+      "year": 2023,
+      "title": "Cash Management and Closeout Procedures for the Emergency Housing Vouchers (EHV) Program funds, and Supplemental Information Regarding EHV Contract Renewal Calculation",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-35pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-34": {
+      "id": "PIH-2023-34",
+      "number": "2023-34",
+      "year": 2023,
+      "title": "Transition and Implementation of the Housing Opportunity Through Modernization Act of 2016 (HOTMA)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-34pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-33": {
+      "id": "PIH-2023-33",
+      "number": "2023-33",
+      "year": 2023,
+      "title": "Implementation of Small Rural Assessments of Public Housing (24 CFR 902 Subpart H) and Publication of Initial List of Small Rural PHAs (Attachment) Small Rural List",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-33pihn.pdf",
+      "attachment_urls": [
+        "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-33SmallRuralPHAList.pdf"
+      ],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-32": {
+      "id": "PIH-2023-32",
+      "number": "2023-32",
+      "year": 2023,
+      "title": "Small Area Fair Market Rent Implementation Guidance for FY2024 Designated Metropolitan Areas",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-32pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-31": {
+      "id": "PIH-2023-31",
+      "number": "2023-31",
+      "year": 2023,
+      "title": "Revocation and Reallocation of Emergency Housing Voucher Awards CY2024",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-31pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-30": {
+      "id": "PIH-2023-30",
+      "number": "2023-30",
+      "year": 2023,
+      "title": "Affordable Housing Activities Under the Native American Housing Assistance and Self-Determination Act (NAHASDA)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-30pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-29": {
+      "id": "PIH-2023-29",
+      "number": "2023-29",
+      "year": 2023,
+      "title": "Certain Regulatory Waivers for the Housing Choice Voucher (including Mainstream) Program and Streamlined Review Process",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-29pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-28": {
+      "id": "PIH-2023-28",
+      "number": "2023-28",
+      "year": 2023,
+      "title": "Implementation of National Standards for the Physical Inspection of Real Estate (NSPIRE) Administrative Procedures for the Housing Choice Voucher (HCV) Programs",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-28pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-27": {
+      "id": "PIH-2023-27",
+      "number": "2023-27",
+      "year": 2023,
+      "title": "Implementation Guidance: Sections 102 and 104 of the Housing Opportunity Through Modernization Act of 2016 (HOTMA)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-27pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "amended",
+        "raw": "Amended by Notice PIH 2026-09",
+        "events": [
+          {
+            "type": "amended_by",
+            "notices": [
+              "PIH-2026-09"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-09.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2023-26": {
+      "id": "PIH-2023-26",
+      "number": "2023-26",
+      "year": 2023,
+      "title": "Implementing Required Use of the Grants Evaluation and Management System (GEMS) for Grant Programs with the Office of Native American Programs",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-26pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-25": {
+      "id": "PIH-2023-25",
+      "number": "2023-25",
+      "year": 2023,
+      "title": "Public Housing Operating Subsidy Grant Eligibility Calculations and Processing for Calendar Year (CY) 2024",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-25pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-24": {
+      "id": "PIH-2023-24",
+      "number": "2023-24",
+      "year": 2023,
+      "title": "Implementation of a Voluntary and Anonymous HUD Inspection Feedback Survey for Incorporation into the National Standards for the Physical Inspection of Real Estate Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-24pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-23": {
+      "id": "PIH-2023-23",
+      "number": "2023-23",
+      "year": 2023,
+      "title": "Emergency Housing Voucher (EHV): Expanded Use of the EHV Services Fee",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-23pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-22": {
+      "id": "PIH-2023-22",
+      "number": "2023-22",
+      "year": 2023,
+      "title": "2023 Summer Registration of Interest for HUD-VASH Vouchers",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-22pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-21": {
+      "id": "PIH-2023-21",
+      "number": "2023-21",
+      "year": 2023,
+      "title": "Allocation of New Incremental Housing Choice Vouchers and Special Administrative Fees",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-21pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-20": {
+      "id": "PIH-2023-20",
+      "number": "2023-20",
+      "year": 2023,
+      "title": "Request for Applications under the Moving to Work Demonstration Program: Overall Impact of Moving to Work Flexibility and Administrative Efficiencies",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-20pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-19": {
+      "id": "PIH-2023-19",
+      "number": "2023-19",
+      "year": 2023,
+      "title": "Rental Assistance Demonstration - Supplemental Notice 4B",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-19pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "amended",
+        "raw": "Amended by Notice PIH 2025-03/H 2025-01",
+        "events": [
+          {
+            "type": "amended_by",
+            "notices": [
+              "PIH-2025-03",
+              "PIH-2025-01"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2025-03pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2023-18": {
+      "id": "PIH-2023-18",
+      "number": "2023-18",
+      "year": 2023,
+      "title": "Implementation of Public Housing Operating Fund Shortfall Funding from Federal Fiscal Year (FFY) 2023 Appropriations",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-18pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-17": {
+      "id": "PIH-2023-17",
+      "number": "2023-17",
+      "year": 2023,
+      "title": "Guidance on the Rate Reduction Incentive in Public Housing",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-17pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-16": {
+      "id": "PIH-2023-16",
+      "number": "2023-16",
+      "year": 2023,
+      "title": "Implementation of National Standards for the Physical Inspection of Real Estate (NSPIRE) Administrative Procedures",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-16pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-15": {
+      "id": "PIH-2023-15",
+      "number": "2023-15",
+      "year": 2023,
+      "title": "Process for Requesting Subsidy Layering Reviews for Project-Based Vouchers",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-15pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-14": {
+      "id": "PIH-2023-14",
+      "number": "2023-14",
+      "year": 2023,
+      "title": "Emergency Housing Voucher (EHV): Guidance on Termination of Vouchers Upon Turnover After September 30, 2023 and EHV Shortfalls Due to Per-Unit Cost Increases or Overleasing",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-14pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "amended",
+        "raw": "Amended by Notice PIH 2023-23",
+        "events": [
+          {
+            "type": "amended_by",
+            "notices": [
+              "PIH-2023-23"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-23pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2023-13": {
+      "id": "PIH-2023-13",
+      "number": "2023-13",
+      "year": 2023,
+      "title": "Guidance on Housing Individuals and Families Experiencing Homelessness Through the Public Housing and Housing Choice Voucher Programs",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-13pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-12": {
+      "id": "PIH-2023-12",
+      "number": "2023-12",
+      "year": 2023,
+      "title": "SUBJECT: Extension of Period of Availability for American Rescue Plan (ARP) Act-Adjustment Funding for Calendar Year 2021 Housing Choice Voucher (HCV) Program and Mainstream Vouchers Renewal Funding",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-12pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-11": {
+      "id": "PIH-2023-11",
+      "number": "2023-11",
+      "year": 2023,
+      "title": "Procedural Guidance for Tribal Housing and Urban Development-Veterans Affairs Supportive Housing (Tribal HUD-VASH) FY 2023 Renewal Grant Application",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-11pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-10": {
+      "id": "PIH-2023-10",
+      "number": "2023-10",
+      "year": 2023,
+      "title": "Emergency Safety and Security Grants Annual Funding Notification and Application Process",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-10pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-09": {
+      "id": "PIH-2023-09",
+      "number": "2023-09",
+      "year": 2023,
+      "title": "2023 Mid-Year Registration of Interest for HUD-VASH Vouchers",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-09pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-08": {
+      "id": "PIH-2023-08",
+      "number": "2023-08",
+      "year": 2023,
+      "title": "Process and Requirements for Agency Regionalization under the Moving to Work Demonstration Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-08pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-07": {
+      "id": "PIH-2023-07",
+      "number": "2023-07",
+      "year": 2023,
+      "title": "Implementation of the Federal Fiscal Year (FFY) 2023 Funding Provisions for the Housing Choice Voucher Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-07pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-06": {
+      "id": "PIH-2023-06",
+      "number": "2023-06",
+      "year": 2023,
+      "title": "Notice on Remedies PHAs have for Poor Performing Owners in the Housing Choice Voucher and Project-Based Voucher Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-06pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-05": {
+      "id": "PIH-2023-05",
+      "number": "2023-05",
+      "year": 2023,
+      "title": "Guidance on Reporting PHA Executive Compensation Information for CY 2022",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-05pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-04": {
+      "id": "PIH-2023-04",
+      "number": "2023-04",
+      "year": 2023,
+      "title": "Foster Youth to Independence Initiative",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-04pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-03": {
+      "id": "PIH-2023-03",
+      "number": "2023-03",
+      "year": 2023,
+      "title": "Supplemental Guidance for Implementation of Section 103; Limitation on Public Housing Tenancy for Over-Income Families under the Housing Opportunity Through Modernization Act of 2016 (HOTMA)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-03pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-02": {
+      "id": "PIH-2023-02",
+      "number": "2023-02",
+      "year": 2023,
+      "title": "Closeout Instructions for the Tribal Housing and Urban Development Veterans Affairs Supportive Housing (Tribal HUD-VASH) Grant Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-02pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2023-01": {
+      "id": "PIH-2023-01",
+      "number": "2023-01",
+      "year": 2023,
+      "title": "Recent Changes to the Federal Micro-Purchase and Simplified Acquisition Thresholds",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-01pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "superseded",
+        "raw": "Superseded by Notice PIH 2026-08",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2026-08"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-08.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2022-38": {
+      "id": "PIH-2022-38",
+      "number": "2022-38",
+      "year": 2022,
+      "title": "Reporting Supplement to the Implementation of the Final Rule on Section 3 Regulations - 24 CFR Part 75",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-38pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-37": {
+      "id": "PIH-2022-37",
+      "number": "2022-37",
+      "year": 2022,
+      "title": "Personal Property Requirements",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-37pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-36": {
+      "id": "PIH-2022-36",
+      "number": "2022-36",
+      "year": 2022,
+      "title": "Public Housing Operating Subsidy Grant Eligibility Calculations and Processing for Calendar Year (CY) 2023",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-36pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-35": {
+      "id": "PIH-2022-35",
+      "number": "2022-35",
+      "year": 2022,
+      "title": "CARES Act Supplemental Operating Fund Close Out Procedures",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-35pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2022-34": {
+      "id": "PIH-2022-34",
+      "number": "2022-34",
+      "year": 2022,
+      "title": "Guidance on the Rate Reduction Incentive in Public Housing",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-34pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-33": {
+      "id": "PIH-2022-33",
+      "number": "2022-33",
+      "year": 2022,
+      "title": "Updates to Flat Rent Exception Request Submission Requirements",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-33pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-32": {
+      "id": "PIH-2022-32",
+      "number": "2022-32",
+      "year": 2022,
+      "title": "Implementation of Section 209(b) of the Economic Growth, Regulatory Relief, and Consumer Protection Act for the Small Rural Frozen Rolling Base (SR-FRB) program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-32pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-31": {
+      "id": "PIH-2022-31",
+      "number": "2022-31",
+      "year": 2022,
+      "title": "Mainstream Vouchers - Non Competitive Opportunity for Additional Vouchers Authorized by the CARES Act and Extraordinary Administrative Funding, (Update)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-31pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2022-30": {
+      "id": "PIH-2022-30",
+      "number": "2022-30",
+      "year": 2022,
+      "title": "Extension of Certain Regulatory Waivers for the Housing Choice Voucher (including Mainstream) Program and Streamlined Review Process",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-30pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-29": {
+      "id": "PIH-2022-29",
+      "number": "2022-29",
+      "year": 2022,
+      "title": "Allocation and Special Administrative Fee for New Incremental Housing Choice Vouchers",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-29pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-28": {
+      "id": "PIH-2022-28",
+      "number": "2022-28",
+      "year": 2022,
+      "title": "Determining and Using Program Income Under NAHASDA",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-28pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-27": {
+      "id": "PIH-2022-27",
+      "number": "2022-27",
+      "year": 2022,
+      "title": "Notice of Deadline Extension for Accepting Indian Housing Block Grant American Rescue Plan Act Funds",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-27pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-26": {
+      "id": "PIH-2022-26",
+      "number": "2022-26",
+      "year": 2022,
+      "title": "Registration of Interest for HUD-VASH Vouchers",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-26pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-25": {
+      "id": "PIH-2022-25",
+      "number": "2022-25",
+      "year": 2022,
+      "title": "Voluntary Reallocation or Recapture of HUD-VASH Vouchers",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-25pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-24": {
+      "id": "PIH-2022-24",
+      "number": "2022-24",
+      "year": 2022,
+      "title": "Stability Voucher Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-24pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-23": {
+      "id": "PIH-2022-23",
+      "number": "2022-23",
+      "year": 2022,
+      "title": "Administrative Requirements for Investing IHBG Funds",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-23.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-22": {
+      "id": "PIH-2022-22",
+      "number": "2022-22",
+      "year": 2022,
+      "title": "Revoke and Reallocation of Emergency Housing Voucher Awards",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-22pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-21": {
+      "id": "PIH-2022-21",
+      "number": "2022-21",
+      "year": 2022,
+      "title": "CARES Act Funding Reconciliation and Closeout - Housing Choice Voucher Program, Mainstream Vouchers, and Moderate Rehabilitation Program : ( CARES Act Recon SF-425 Templates )",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-21pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2022-20": {
+      "id": "PIH-2022-20",
+      "number": "2022-20",
+      "year": 2022,
+      "title": "Family Self-Sufficiency (FSS) Program: Establishment of the Escrow Account and Use of Forfeited FSS Escrow",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-20pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-19": {
+      "id": "PIH-2022-19",
+      "number": "2022-19",
+      "year": 2022,
+      "title": "Mainstream Vouchers - Non-Competitive Opportunity for Additional Vouchers Authorized by the CARES Act and Extraordinary Administrative Funding, Correction",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-19pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2022-18": {
+      "id": "PIH-2022-18",
+      "number": "2022-18",
+      "year": 2022,
+      "title": "Use of Housing Choice Voucher (HCV) and Mainstream Voucher Administrative Fees for Expenses to Assist Families to Lease Units",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-18pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-17": {
+      "id": "PIH-2022-17",
+      "number": "2022-17",
+      "year": 2022,
+      "title": "Implementation of Public Housing Operating Fund Shortfall from Federal Fiscal Year (FFY) 2022 Appropriations",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-17pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-16": {
+      "id": "PIH-2022-16",
+      "number": "2022-16",
+      "year": 2022,
+      "title": "Total Development Cost (TDC) for Affordable Housing Under the Native American Housing Assistance and Self-Determination Act of 1996 (NAHASDA) .",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-16pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-15": {
+      "id": "PIH-2022-15",
+      "number": "2022-15",
+      "year": 2022,
+      "title": "Federal Financial Report - Standard Form 425",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-15pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-14": {
+      "id": "PIH-2022-14",
+      "number": "2022-14",
+      "year": 2022,
+      "title": "Implementation of the Federal Fiscal Year (FYY) 2022 Funding Provisions for the Housing Choice Voucher Program : LTAL Attachment",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-14pihn.pdf",
+      "attachment_urls": [
+        "https://www.hud.gov/sites/dfiles/OCHCO/documents/LTALpihn142022.pdf"
+      ],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-13": {
+      "id": "PIH-2022-13",
+      "number": "2022-13",
+      "year": 2022,
+      "title": "Notice of Reallocation of Unaccepted Indian Housing Block Grant American Rescue Plan Act (IHBG-ARP) Funds to the Indian Community Development Block Grant Imminent Threat - American Rescue Act (ICDBG-ARP) Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-13pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-12": {
+      "id": "PIH-2022-12",
+      "number": "2022-12",
+      "year": 2022,
+      "title": "Process for Amending ICDBG-CARES and ICDBG-ARP Grants",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-12pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-11": {
+      "id": "PIH-2022-11",
+      "number": "2022-11",
+      "year": 2022,
+      "title": "Request for Applications under the Moving to Work Demonstration Program: Asset Building Cohort",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-11pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-10": {
+      "id": "PIH-2022-10",
+      "number": "2022-10",
+      "year": 2022,
+      "title": "Implementation of the Final Rule on Section 3 Regulations - 24 CFR Part 75",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-10pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-09": {
+      "id": "PIH-2022-09",
+      "number": "2022-09",
+      "year": 2022,
+      "title": "Streamlined Regulatory Waivers for the Housing Choice Voucher (including Mainstream and Mod Rehab) Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-09pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "expired",
+        "raw": "Expired December 31, 2022",
+        "events": [
+          {
+            "type": "expired",
+            "date": "December 31, 2022"
+          }
+        ]
+      }
+    },
+    "PIH-2022-08": {
+      "id": "PIH-2022-08",
+      "number": "2022-08",
+      "year": 2022,
+      "title": "Procedural Guidance for Tribal Housing and Urban Development-Veterans Affairs Supportive Housing (Tribal HUD-VASH) FY 2022 Renewal Grant Application",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-08pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-07": {
+      "id": "PIH-2022-07",
+      "number": "2022-07",
+      "year": 2022,
+      "title": "Mainstream Vouchers - Non-Competitive Opportunity for Additional Vouchers Authorized by the CARES Act and Extraordinary Administrative Funding",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-07pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2022-06": {
+      "id": "PIH-2022-06",
+      "number": "2022-06",
+      "year": 2022,
+      "title": "Emergency Housing Vouchers – Reallocation of Awards",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-06pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "amended",
+        "raw": "Amended by Notice PIH 2023-31",
+        "events": [
+          {
+            "type": "amended_by",
+            "notices": [
+              "PIH-2023-31"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-31pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2022-05": {
+      "id": "PIH-2022-05",
+      "number": "2022-05",
+      "year": 2022,
+      "title": "Emergency Safety and Security Grants Annual Funding Notification and Application Process",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-05pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "superseded",
+        "raw": "Superseded by Notice PIH 2023-10",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2023-10"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-10pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2022-04": {
+      "id": "PIH-2022-04",
+      "number": "2022-04",
+      "year": 2022,
+      "title": "Expedited Regulatory Waivers for the Public Housing and Housing Choice Voucher (including Mainstream and Mod Rehab) Programs",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-04pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "expired",
+        "raw": "Expired April 1, 2022",
+        "events": [
+          {
+            "type": "expired",
+            "date": "April 1, 2022"
+          }
+        ]
+      }
+    },
+    "PIH-2022-03": {
+      "id": "PIH-2022-03",
+      "number": "2022-03",
+      "year": 2022,
+      "title": "Guidance on Unit Designation Categories and Accessible Designation Categories in IMS/PIC",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-03pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-02": {
+      "id": "PIH-2022-02",
+      "number": "2022-02",
+      "year": 2022,
+      "title": "Return of Public Housing Assessment Systems (PHAS) assessments upon expiration of PHAS-related waivers in Notice PIH 2021-14",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-02pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2022-01": {
+      "id": "PIH-2022-01",
+      "number": "2022-01",
+      "year": 2022,
+      "title": "Carbon Monoxide Alarms or Detectors in U.S. Housing and Urban Development (HUD)-Assisted Housing",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-01pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-38": {
+      "id": "PIH-2021-38",
+      "number": "2021-38",
+      "year": 2021,
+      "title": "COVID-19 Statutory and Regulatory Amendment to PIH Notice 2021-14 (HA), Providing for the Release of Public Housing Assessment System Scores for Federal Fiscal Year 2019",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-38pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2021-37": {
+      "id": "PIH-2021-37",
+      "number": "2021-37",
+      "year": 2021,
+      "title": "Guidance on Eligibility for Asset-Repositioning Fee (ARF)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-37pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "superseded",
+        "raw": "Superseded by Notice PIH 2026-16",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2026-16"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-16.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2021-36": {
+      "id": "PIH-2021-36",
+      "number": "2021-36",
+      "year": 2021,
+      "title": "CARES Act Supplemental Operating Fund Close Out Procedures",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-36pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2021-35": {
+      "id": "PIH-2021-35",
+      "number": "2021-35",
+      "year": 2021,
+      "title": "Guidance on Inventory Management System/PIH Information Center (IMS-PIC) Sub-Module Reporting and Validation",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-35pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-34": {
+      "id": "PIH-2021-34",
+      "number": "2021-34",
+      "year": 2021,
+      "title": "Expedited Regulatory Waivers for the Public Housing and Housing Choice Voucher (including Mainstream and Mod Rehab) Programs",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-34pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "superseded",
+        "raw": "Superseded by Notice PIH 2022-04",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2022-04"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-04pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2021-33": {
+      "id": "PIH-2021-33",
+      "number": "2021-33",
+      "year": 2021,
+      "title": "Submitting CARES Act Waiver Adoption Information to HUD by December 20, 2021",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-33pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2021-32": {
+      "id": "PIH-2021-32",
+      "number": "2021-32",
+      "year": 2021,
+      "title": "EXTENSION of American Rescue Plan Act - Adjustment Funding for Calendar Year 2021 Housing Choice Voucher Program and Mainstream Vouchers Renewal Funding Applications (previously published as American Rescue Plan Act - Adjustment Funding for Calendar Year 2021 Housing Choice Voucher Program and Mainstream Vouchers Renewal Funding and Updated Application Process for Unforeseen Circumstances Funding)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-32pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-31": {
+      "id": "PIH-2021-31",
+      "number": "2021-31",
+      "year": 2021,
+      "title": "Public Housing Operating Subsidy Grant Eligibility Calculations and Processing for Calendar Year (CY) 2022",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/PIH-2021-31.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-30": {
+      "id": "PIH-2021-30",
+      "number": "2021-30",
+      "year": 2021,
+      "title": "Revision of Application Process for the Small-Rural Frozen Rolling Base Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-30pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-29": {
+      "id": "PIH-2021-29",
+      "number": "2021-29",
+      "year": 2021,
+      "title": "Supplemental Guidance tothe Interim Final Rule \"Extentsion of Time and Required Disclosures for Notification of Nonpayment of Rent\"",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-29pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-28": {
+      "id": "PIH-2021-28",
+      "number": "2021-28",
+      "year": 2021,
+      "title": "Providing Interim Funding to Recipients of Indian Housing Block Grants",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-28pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-27": {
+      "id": "PIH-2021-27",
+      "number": "2021-27",
+      "year": 2021,
+      "title": "Flat Rent Submission Requirements Update",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-27pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-26": {
+      "id": "PIH-2021-26",
+      "number": "2021-26",
+      "year": 2021,
+      "title": "Foster Youth to Independence Initiative 2021",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-26pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "superseded",
+        "raw": "Superseded by Notice PIH 2021-38",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2021-38"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-38pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2021-25": {
+      "id": "PIH-2021-25",
+      "number": "2021-25",
+      "year": 2021,
+      "title": "Emergency Housing Vouchers – Voucher Management System and Financial Data Schedule Reporting Requirements",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-25pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-24": {
+      "id": "PIH-2021-24",
+      "number": "2021-24",
+      "year": 2021,
+      "title": "Revision to Deadline for Submitting Revised Operating Subsidy Forms Related to the Small and Rural Frozen Rolling Base.",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-24pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-23": {
+      "id": "PIH-2021-23",
+      "number": "2021-23",
+      "year": 2021,
+      "title": "American Rescue Plan Act - Adjustment Funding for Calendar Year 2021 Housing Choice Voucher Program and Mainstream Vouchers Renewal Funding and Updated Application Process for Unforeseen Circumstances Funding",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-23pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "amended",
+        "raw": "Amended by Notice PIH 2021-32",
+        "events": [
+          {
+            "type": "amended_by",
+            "notices": [
+              "PIH-2021-32"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-32pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2021-22": {
+      "id": "PIH-2021-22",
+      "number": "2021-22",
+      "year": 2021,
+      "title": "Indian Community Development Block Grant - American Rescue Plan Act (ICDBG-ARP) Implementation Notice",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-22pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-21": {
+      "id": "PIH-2021-21",
+      "number": "2021-21",
+      "year": 2021,
+      "title": "Registration of Interest for HUD-VASH Vouchers",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-21pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-20": {
+      "id": "PIH-2021-20",
+      "number": "2021-20",
+      "year": 2021,
+      "title": "Emergency Housing Vouchers - Household Reporting Requirements",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-20pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-19": {
+      "id": "PIH-2021-19",
+      "number": "2021-19",
+      "year": 2021,
+      "title": "EXTENSION of Request for Applications under the Moving to Work Demonstration Program - Landlord Incentives Cohort #4",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-19pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-18": {
+      "id": "PIH-2021-18",
+      "number": "2021-18",
+      "year": 2021,
+      "title": "RESCINDING of Request for Applications under the Moving to Work Demonstration Program - Work Requirements Cohort #3",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-18pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-17": {
+      "id": "PIH-2021-17",
+      "number": "2021-17",
+      "year": 2021,
+      "title": "Revision of Application Process for the Small-Rural Frozen Rolling Base Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-17pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-16": {
+      "id": "PIH-2021-16",
+      "number": "2021-16",
+      "year": 2021,
+      "title": "Guidance on the Use of Tenant Participation Funds",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-16pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-15": {
+      "id": "PIH-2021-15",
+      "number": "2021-15",
+      "year": 2021,
+      "title": "Emergency Housing Vouchers-Operating Requirements",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-15pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "amended",
+        "raw": "Amended by Notice PIH 2023-14",
+        "events": [
+          {
+            "type": "amended_by",
+            "notices": [
+              "PIH-2023-14"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2023-14pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2021-14": {
+      "id": "PIH-2021-14",
+      "number": "2021-14",
+      "year": 2021,
+      "title": "COVID-19 Statutory and Regulatory Waivers and Alternative Requirements for the Public Housing, Housing Choice Voucher (including Mainstream and Mod Rehab), Indian Housing Block Grant and Indian Community Development Block Grant Programs, Suspension of Public Housing Assessment System and Section Eight Management Assessment Program, Revision 3 ( Attachment-Chart )",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-14pihn.pdf",
+      "attachment_urls": [
+        "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-14pihnChart.pdf"
+      ],
+      "status": {
+        "state": "amended",
+        "raw": "Amended by Notice PIH 2021-38 and 2026-06",
+        "events": [
+          {
+            "type": "amended_by",
+            "notices": [
+              "PIH-2021-38",
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-38pihn.pdf",
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2021-13": {
+      "id": "PIH-2021-13",
+      "number": "2021-13",
+      "year": 2021,
+      "title": "NHHBG-ARP Implementation Notice (Attachment-NHHP-APR) (Attachment-50090-NHHP-NHHBG)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-pihn13.pdf",
+      "attachment_urls": [
+        "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-13NHHP-APR.pdf",
+        "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-13NHHBGpihn.pdf"
+      ],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-12": {
+      "id": "PIH-2021-12",
+      "number": "2021-12",
+      "year": 2021,
+      "title": "Implementation of Public Housing Operating Fund Shortfall Funding from Federal Fiscal Year (FFY) 2021 Appropriations",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-12pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "amended",
+        "raw": "Amended by Notice PIH 2024-02",
+        "events": [
+          {
+            "type": "amended_by",
+            "notices": [
+              "PIH-2024-02"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-02pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2021-11": {
+      "id": "PIH-2021-11",
+      "number": "2021-11",
+      "year": 2021,
+      "title": "Indian Housing Block Grant American Rescue Plan Act of 2021-Implementation Notice ( Attachment-IHBG ARP IHP ) Click on attachment and download to access",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-11pihn.pdf",
+      "attachment_urls": [
+        "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-11pihnAttachment.pdf",
+        "https://www.hud.gov/sites/dfiles/OCHCO/documents/IHP-APR.pdf",
+        "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-11pihnAttachment.pdf"
+      ],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-10": {
+      "id": "PIH-2021-10",
+      "number": "2021-10",
+      "year": 2021,
+      "title": "Implementation of the Federal Fiscal Year (FFY) 2021 Funding Provisions for the Housing Choice Voucher Program, and Availability of FFY 2020 Housing Assistance Payments (HAP) Set-Aside Funds for Second Per Unit Cost (PUC) Increases due to Unforeseen Circumstances (Attachment) HCV Funding Provisions List",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-10pihn.pdf",
+      "attachment_urls": [
+        "https://www.hud.gov/sites/dfiles/OCHCO/documents/HCVFunding.pdf"
+      ],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-09": {
+      "id": "PIH-2021-09",
+      "number": "2021-09",
+      "year": 2021,
+      "title": "Procedural Guidance for Tribal HUD-VA Supportive Housing (Tribal HUD-VASH) Renewal Grant Applications",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-09pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-08": {
+      "id": "PIH-2021-08",
+      "number": "2021-08",
+      "year": 2021,
+      "title": "Financial Reporting Requirements for the Housing Choice Voucher and Mainstream Voucher Program Submitted through the Financial Assessment Subsystem for Public Housing (FASS-PH) and the Voucher Management System (VMS) Notice",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-08pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-07": {
+      "id": "PIH-2021-07",
+      "number": "2021-07",
+      "year": 2021,
+      "title": "Demolition and/or disposition of public housing property, eligibility for tenant-protection vouchers, and associated requirements",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-07pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "superseded",
+        "raw": "Superseded by Notice PIH 2024-40",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2024-40"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-40pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2021-06": {
+      "id": "PIH-2021-06",
+      "number": "2021-06",
+      "year": 2021,
+      "title": "Process for Amending ICDBG-CARES Grants",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-06pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-05": {
+      "id": "PIH-2021-05",
+      "number": "2021-05",
+      "year": 2021,
+      "title": "Use of Shared Housing in the Housing Choice Voucher (HCV) Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-05pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-04": {
+      "id": "PIH-2021-04",
+      "number": "2021-04",
+      "year": 2021,
+      "title": "Public Housing Operating Fund (\"OpFund\") Grant Eligibility Calculations and Processing for Calendar Year (CY) 2021",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-04pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-03": {
+      "id": "PIH-2021-03",
+      "number": "2021-03",
+      "year": 2021,
+      "title": "Request for Applications under the Moving to Work Demonstration Program for Fiscal Year 2021: COHORT #4 - Landlord Incentives",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-03pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2021-01": {
+      "id": "PIH-2021-01",
+      "number": "2021-01",
+      "year": 2021,
+      "title": "Use of Expired Guidance",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-01pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-34": {
+      "id": "PIH-2020-34",
+      "number": "2020-34",
+      "year": 2020,
+      "title": "Update to PIH Notice 2020-15, Revised Loan Limits for the Section 184 Indian Housing Loan Guarantee Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-34pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-33": {
+      "id": "PIH-2020-33",
+      "number": "2020-33",
+      "year": 2020,
+      "title": "COVID-19 Statutory and Regulatory Waivers and Alternative Requirements for the Public Housing, Housing Choice Voucher (including Mainstream and Mod Rehab), Indian Housing Block Grant and Indian Community Development Block Grant programs, Suspension of Public Housing Assessment System and Section Eight Management Assessment Program, Revision 2; Attachment I: Summary of Public Housing and HCV Waivers and Alternative Requirements",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-33pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Superseded by Notice PIH 2021-14 ; Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2021-14"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-14pihn.pdf"
+            ]
+          },
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-32": {
+      "id": "PIH-2020-32",
+      "number": "2020-32",
+      "year": 2020,
+      "title": "Guidance for PHAs on the Allowability of Remote Hearings and Remote Briefings",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-32pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "amended",
+        "raw": "Amended by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "amended_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-31": {
+      "id": "PIH-2020-31",
+      "number": "2020-31",
+      "year": 2020,
+      "title": "Remote Video Inspections for Housing Choice Voucher Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-31pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-30": {
+      "id": "PIH-2020-30",
+      "number": "2020-30",
+      "year": 2020,
+      "title": "Implementation of Section 209 (b) of the Economic Growth, Regulatory Relief, and Consumer Protection Act (Economic Growth Act)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-30pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-29": {
+      "id": "PIH-2020-29",
+      "number": "2020-29",
+      "year": 2020,
+      "title": "Guidance for Running an Optimized Housing Choice Voucher Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-29pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-28": {
+      "id": "PIH-2020-28",
+      "number": "2020-28",
+      "year": 2020,
+      "title": "Foster Youth to Independence Initiative",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-28pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "amended",
+        "raw": "Amended by Notice PIH 2021-26",
+        "events": [
+          {
+            "type": "amended_by",
+            "notices": [
+              "PIH-2021-26"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2021-26pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-27": {
+      "id": "PIH-2020-27",
+      "number": "2020-27",
+      "year": 2020,
+      "title": "Waiver of Undisbursed Funds Factor Requirements Under the Indian Housing Block Grant Program for Fiscal Year 2021.",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-27pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-26": {
+      "id": "PIH-2020-26",
+      "number": "2020-26",
+      "year": 2020,
+      "title": "Rental Assistance Demonstration (RAD) - Supplemental COVID-19 Guidance",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-26pihn-2020-9hsgn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-07",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-07"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-07.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-25": {
+      "id": "PIH-2020-25",
+      "number": "2020-25",
+      "year": 2020,
+      "title": "Emergency Safety and Security Grants Annual Funding Notification and Application Process",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-25pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "superseded",
+        "raw": "Superseded by Notice PIH 2022-05",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2022-05"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2022-05pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-24": {
+      "id": "PIH-2020-24",
+      "number": "2020-24",
+      "year": 2020,
+      "title": "FDS CARES Act Reporting Requirements Notice",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-24pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-23": {
+      "id": "PIH-2020-23",
+      "number": "2020-23",
+      "year": 2020,
+      "title": "Use of Proceeds under Section 18 Disposition or Section 22 Voluntary Conversion",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-23pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-22": {
+      "id": "PIH-2020-22",
+      "number": "2020-22",
+      "year": 2020,
+      "title": "CARES Act Implementation for Mainstream",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-22pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-21": {
+      "id": "PIH-2020-21",
+      "number": "2020-21",
+      "year": 2020,
+      "title": "Request for Applications under the MTW Demonstration Program for FY 2020: COHORT #2 - Rent Reform",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-21pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-20": {
+      "id": "PIH-2020-20",
+      "number": "2020-20",
+      "year": 2020,
+      "title": "Section 8 Moderate Rehabilitation Program - CARES Act Supplemental HAP Funding Allocation and COVID-19 Waivers and Alternative Requirements",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-20pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-19": {
+      "id": "PIH-2020-19",
+      "number": "2020-19",
+      "year": 2020,
+      "title": "Rent Reasonableness – Defining Assisted Units for the Housing Choice Voucher and Project-Based Voucher Programs",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-19pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-18": {
+      "id": "PIH-2020-18",
+      "number": "2020-18",
+      "year": 2020,
+      "title": "CARES Act - HCV Program Administrative Fees - Second Award",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-18pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-17": {
+      "id": "PIH-2020-17",
+      "number": "2020-17",
+      "year": 2020,
+      "title": "CARES Act - Housing Choice Voucher (HCV) Program Housing Assistance Payments (HAP) Supplemental Funding",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-17pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-16": {
+      "id": "PIH-2020-16",
+      "number": "2020-16",
+      "year": 2020,
+      "title": "Implementation of Public Housing Operating Fund Shortfall Funding from Federal Fiscal Year (FFY) 2020 Appropriations",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-16pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "amended",
+        "raw": "Amended by Notice PIH 2024-02",
+        "events": [
+          {
+            "type": "amended_by",
+            "notices": [
+              "PIH-2024-02"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2024-02pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-15": {
+      "id": "PIH-2020-15",
+      "number": "2020-15",
+      "year": 2020,
+      "title": "Revised Loan Limits for the Section 184 Indian Home Loan Guarantee Program ( pdf , attachment )",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-15pihn.pdf",
+      "attachment_urls": [
+        "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-15pihn2.pdf"
+      ],
+      "status": {
+        "state": "amended",
+        "raw": "Amended by Notice PIH 2020-34",
+        "events": [
+          {
+            "type": "amended_by",
+            "notices": [
+              "PIH-2020-34"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-34pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-14": {
+      "id": "PIH-2020-14",
+      "number": "2020-14",
+      "year": 2020,
+      "title": "Registration of Interest for HUD-VASH Vouchers",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/20-14pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-13": {
+      "id": "PIH-2020-13",
+      "number": "2020-13",
+      "year": 2020,
+      "title": "Suspension of Public Housing Assessment System and Section Eight Management Assessment Program, Rev 1 ( Attachment )",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-13pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "superseded",
+        "raw": "Superseded by Notice PIH 2020-33",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2020-33"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-33pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-12": {
+      "id": "PIH-2020-12",
+      "number": "2020-12",
+      "year": 2020,
+      "title": "FY 2020 Indian Community Development Block Grant (ICDBG) Area Allocations and Funding Information",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-12pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-11": {
+      "id": "PIH-2020-11",
+      "number": "2020-11",
+      "year": 2020,
+      "title": "ICDBG-CARES Implementation Notice",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-11pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-10": {
+      "id": "PIH-2020-10",
+      "number": "2020-10",
+      "year": 2020,
+      "title": "Procedural Guidance for Tribal HUD-VA Supportive Housing (Tribal HUD-VASH) Renewal Grant Applications",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-10pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-09": {
+      "id": "PIH-2020-09",
+      "number": "2020-09",
+      "year": 2020,
+      "title": "CARES Act Mainstream Funding for Public Housing Authorities (PHAs) Awarded Funding Allocations in the 2017 and 2019 Competitions",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-09pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-08": {
+      "id": "PIH-2020-08",
+      "number": "2020-08",
+      "year": 2020,
+      "title": "CARES Act- HCV Program Administrative Fees",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-08pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "rescinded",
+        "raw": "Rescinded by Notice PIH 2026-06",
+        "events": [
+          {
+            "type": "rescinded_by",
+            "notices": [
+              "PIH-2026-06"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/default/files/PIH/documents/PIH-2026-06.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-07": {
+      "id": "PIH-2020-07",
+      "number": "2020-07",
+      "year": 2020,
+      "title": "Implementation of Supplemental Guidance to the Federal Fiscal Year 2020 Operating Fund Appropriations",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-07pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-06": {
+      "id": "PIH-2020-06",
+      "number": "2020-06",
+      "year": 2020,
+      "title": "IHBG-CARES Implementation Notice- to provide Indian Tribes and Tribally Designated Housing Entities (TDHEs) Guidance for IHBG-CARES IHBG CARES IHP APR (NOTE: Use Internet Explorer to open this specific form)",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-06pihn.pdf",
+      "attachment_urls": [
+        "https://www.hud.gov/sites/dfiles/OCHCO/documents/GuidanceIHBGCARESpih.pdf",
+        "https://www.hud.gov/sites/dfiles/OCHCO/documents/IHBGCares.pdf"
+      ],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-05": {
+      "id": "PIH-2020-05",
+      "number": "2020-05",
+      "year": 2020,
+      "title": "COVID-19 Statutory and Regulatory Waivers for the Public Housing, Housing Choice Voucher, Indian Housing Block Grant and Indian Community Development Block Grant programs, Suspension of Public Housing Assessment System and Section Eight Management Assessment Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-05pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "superseded",
+        "raw": "Superseded by Notice PIH 2020-13",
+        "events": [
+          {
+            "type": "superseded_by",
+            "notices": [
+              "PIH-2020-13"
+            ],
+            "urls": [
+              "https://www.hud.gov/sites/dfiles/OCHCO/documents/2020-13pihn.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "PIH-2020-04": {
+      "id": "PIH-2020-04",
+      "number": "2020-04",
+      "year": 2020,
+      "title": "Implementation of Federal Fiscal Year (FFY) 2020 Funding Provisions for the Housing Choice Voucher Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/20-04pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-03": {
+      "id": "PIH-2020-03",
+      "number": "2020-03",
+      "year": 2020,
+      "title": "Public Housing Operating Fund (OpFund) Grant Eligibility Calculations and Processing for Calendar Year (CY) 2020",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/20-03pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-02": {
+      "id": "PIH-2020-02",
+      "number": "2020-02",
+      "year": 2020,
+      "title": "Section 209: Guidance for Shared Waiting Lists",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/20-02pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    },
+    "PIH-2020-01": {
+      "id": "PIH-2020-01",
+      "number": "2020-01",
+      "year": 2020,
+      "title": "Revised Policies and Procedures for the Mainstream Voucher Program",
+      "revised": false,
+      "primary_url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/20-01pihn.pdf",
+      "attachment_urls": [],
+      "status": {
+        "state": "active",
+        "raw": "",
+        "events": []
+      }
+    }
+  }
+}

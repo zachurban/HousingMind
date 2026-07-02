@@ -365,6 +365,8 @@ def main(argv: Optional[list[str]] = None) -> int:
 
     if not pending:
         print("No new active notices to ingest.")
+        if not args.dry_run:
+            save_state(state, args.state)  # record the "checked, nothing to do" state
         return 0
 
     print(f"\n== Ingesting {len(pending)} notice(s) ==")
